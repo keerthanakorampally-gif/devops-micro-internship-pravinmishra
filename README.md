@@ -14,9 +14,9 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
+| **Name** | keerthana korampally |
+| **LinkedIn** | https://www.linkedin.com/in/keerthana-korampally-43377a434/ |
+| **Location** | karimnagar,Telangana |
 | **Background** | Cloud, DevOps & AI Consultant |
 | **Goal** | Train 10,000+ DevOps professionals |
 
