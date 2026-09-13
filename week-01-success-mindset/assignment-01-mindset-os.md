@@ -32,8 +32,8 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
+I believe that getting a high salary is not the only way to measure success. Many people around me think that getting a government job or a high-paying IT job is the most important goal. But I believe that learning useful skills and improving ourselves every day is more valuable in the long run. In the tech industry, practical knowledge, consistency, and the ability to solve real problems are more important than just marks or certificates. I believe that a person who keeps learning and never gives up can create better opportunities for their future. Success is not about competing with others; it is about becoming better than who we were yesterday.
 
-Add your answer here...
 
 ---
 
@@ -53,37 +53,26 @@ Write each truth in this format:
 
 ## Truth #1
 
-### Truth
-
-Add your answer here...
+### Truth:I believe that practical skills and continuous learning are more important for career success than just getting high marks or certificates.
 
 ### Evidence from my life
+As a BTech AIML student, I started learning Python, Machine Learning, and DevOps concepts. I tried doing practical assignments and projects to understand how technology works. I realized that learning by doing helps me understand concepts better and increases my confidence. This made me believe that practical knowledge is the key to building a successful career.
 
-Add your answer here...
-
----
 
 ## Truth #2
 
-### Truth
-
-Add your answer here...
+### Truth:I believe that consistency is more important than talent for achieving success.
 
 ### Evidence from my life
-
-Add your answer here...
+I started learning DevOps and practicing new technical skills even when some concepts were difficult. By learning step by step and completing assignments, I improved my understanding and confidence. This taught me that regular effort can help me achieve my goals.
 
 ---
 
 ## Truth #3
 
-### Truth
+### Truth:I believe that failure is not the opposite of success; it is a part of learning and improving.
 
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
+### Evidence from my life:When I faced difficulties in my BTech assignments and learning new technologies, I did not give up. I tried again, learned from my mistakes, and improved my understanding. This taught me that every mistake is an opportunity to become better.
 
 ---
 
@@ -133,17 +122,17 @@ Use the credit note that matches your track:
 
 Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 **Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
 
 Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
 
 Add the following credit note at the end of your post **(If you are DMI Campus student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus**
 
 **Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
 
@@ -151,15 +140,22 @@ Hashtags:
 
 #DMIByPravinMishra #AgenticAI #DevOps
 
-## Your Article
-
-Add your answer here...
+## Your Article:
+Tech Titan in the Making: How Keerthana Korampally Transformed Cloud Infrastructure with DevOps and Agentic AI
+SILICON VALLEY — Four years ago, Keerthana Korampally set out on a mission to bridge the gap between complex cloud architecture and intelligent automation. Today, that vision stands fully realized. As a Senior Lead DevOps and Agentic AI Architect, Korampally built end-to-end resilient infrastructure frameworks that redefined how enterprise systems operate at scale.
+Her journey accelerated during an intensive hands-on DevOps Micro Internship, where she shipped production-ready Kubernetes pipelines and engineered automated CI/CD workflows. Recognizing the shift toward autonomous systems, she led a high-impact initiative to integrate Agentic AI models into legacy cloud deployments. This project cut downtime by 40% across multi-region clusters and earned her industry-wide recognition.
+Korampally’s technical portfolio showcases an impressive track record. She authored and published five technical whitepapers on self-healing cloud infrastructure and contributed extensively to open-source DevOps tooling. Her GitHub repositories, featuring custom Terraform modules and automated infrastructure scripts, accumulated thousands of stars from engineers worldwide.
+Over the past three years, Korampally earned top-tier credentials, including the AWS Certified Solutions Architect – Professional and Certified Kubernetes Administrator (CKA) designations. Her leadership extended beyond her primary job role when she relocated to lead a distributed team of engineers, guiding them through a critical enterprise cloud migration.
+Beyond enterprise execution, Korampally prioritized community contribution. She founded an open-source learning initiative, mentored emerging tech talent, and frequently spoke at international cloud conferences on the intersection of DevOps and artificial intelligence.
+"She didn't just deploy code; she engineered seamless platforms that empowered entire engineering organizations to build faster," noted a former engineering director. Through relentless execution, technical mastery, and community leadership, Keerthana Korampally proved that the future of cloud computing belongs to those who innovate at the frontier of automation.
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3
+@Anjana Muthunayake
+#DMIByPravinMishra #AgenticAI #DevOps
 
 ### Public Link
+Paste your link here:( https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp).
 
-Paste your link here:
-
-`Add your URL here`
+`https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsappAdd your URL here`
 
 ---
 
@@ -191,7 +187,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Once, I took a shortcut while completing an assignment instead of doing all the work myself. At first, I felt relieved because I finished it quickly. But later, I felt guilty because I knew I had not learned everything properly. I also felt stressed when I thought about whether I could explain the work if someone asked me questions. This experience taught me that shortcuts may save time, but they can reduce confidence and learning. I realized that being honest with myself and putting in genuine effort is more important than finishing quickly.
 
 ---
 
@@ -217,16 +213,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+2.The 7 Habits of Highly Effective People — Stephen R. Covey
+3.How to Win Friends and Influence People — Dale Carnegie
+4.Deep Work — Cal Newport
+5. The Psychology of Money — Morgan Housel
+6.Rich Dad Poor Dad — Robert T. Kiyosaki
+7.Ikigai — Héctor García and Francesc Miralles
+8.Mindset — Carol S. Dweck
+9.The Power of Now — Eckhart Tolle
+10.Leaders Eat Last — Simon Sinek
 
 ---
 
@@ -253,20 +249,27 @@ List topics only. No need to share numbers.
 * Sleep hours
 * Spending tracker
 
-## My Metrics
-
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-
----
+## My Metrics:
+Learning hours per week
+New skills learned
+Coding practice
+Projects completed
+GitHub contributions
+Portfolio updates
+Certifications earned
+Health and energy levels
+Sleep hours
+Exercise and workouts
+Time spent on social media
+Study hours
+Deep work sessions
+Daily productivity
+Personal expenses
+Monthly savings
+Career growth
+Communication skills
+Networking and professional connections
+Personal goals progress
 
 # Assignment 7. Brain Dump + 5-Month System Plan
 
@@ -287,10 +290,19 @@ Examples:
 ### Did You Do It?
 
 **Yes / No**
+yes
 
-Answer:
-
-Add your answer here...
+Answer: Bills: College fees and personal expenses.
+Tasks: Complete DevOps assignments and college work.
+Worries: Career, exams, and future job opportunities.
+Goals: Learn Python, Machine Learning, and DevOps.
+Pending messages: Reply to important college and internship messages.
+Ideas: Build real-time AIML projects and improve my GitHub portfolio.
+Responsibilities: Attend college, complete assignments, manage study time, and take care of my health.
+Maintain good health and sleep.
+Reduce unnecessary phone usage.
+Improve my confidence.
+Plan my future career in AIML.
 
 ---
 
@@ -307,20 +319,22 @@ Example:
 * Sun: Weekly review
 
 #### My Weekly Routine
-
-Add your answer here...
-
+Monday–Thursday: 60 minutes deep work for Python, AIML, or DevOps.
+Friday: 30 minutes revision and assignment completion.
+Saturday: 60–90 minutes DMI session and project practice.
+Sunday: Weekly review, plan next week, and rest.
 ---
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
-
-Add your answer here...
+Monday–Thursday: 7:00 PM – 8:00 PM
+Saturday: 10:00 AM – 11:30 AM
+Sunday: 6:00 PM – 6:30 PM (Weekly review)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5 sessions per week
 
 ---
 
@@ -332,38 +346,36 @@ Examples:
 * Social media rules
 * Environment setup
 
-#### My Distraction Rules
-
-Add your answer here...
+#### My Distraction Rules:
+Keep my phone away during study time.
+Avoid social media while doing DMI work.
+Focus on one task at a time.
+Complete assignments before entertainment.
+Take short breaks between focus sessions.
+Avoid unnecessary notifications.
+Follow my daily study schedule.
 
 ---
 
 # Reflection – Week 1
 
-### Biggest insight I got about myself this week
+### Biggest insight I got about myself this week:
+I realized that I can learn new technical skills when I stay consistent and practice regularly. Completing my DevOps assignments helped me improve my confidence and understand the importance of practical learning.
 
-Add your answer here...
+### My biggest weakness/loop I noticed:
+My biggest weakness was getting distracted by my phone and delaying assignments. I noticed that postponing work made me feel stressed and reduced my study time.
 
-### My biggest weakness/loop I noticed
-
-Add your answer here...
-
-### One system I will implement from this week (exact habit + time)
-
-Add your answer here...
+### One system I will implement from this week (exact habit + time):
+I will study DevOps and practice coding every Monday to Thursday from 7:00 PM to 8:00 PM. I will keep my phone away, focus on one task, and complete my work before entertainment.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
-
-`Add your URL here`
-
----
-
+LinkedIn Post URL: https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp
+-
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+LinkedIn Post URL: https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp
+-
 
 ---
 
