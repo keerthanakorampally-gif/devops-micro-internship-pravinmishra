@@ -57,9 +57,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
 
-## Answer
-
-Add your answer here...
+## Answer:
 Packet Switching, IP Address, TCP/IP, and HTTP/HTTPS: Packet Switching is a method of sending data over a network by dividing it into small packets. These packets travel through different routes and are reassembled at the destination. An IP Address is a unique numerical address assigned to a device on a network. It helps identify devices and deliver data to the correct destination. TCP/IP is a set of communication protocols used on the Internet. TCP ensures reliable delivery of data, while IP handles addressing and routing. HTTP stands for HyperText Transfer Protocol and is used to transfer web pages between a browser and a web server. HTTPS is the secure version of HTTP that encrypts data during transmission. These networking concepts work together to make Internet communication fast, reliable, and secure.
 ---
 
@@ -94,7 +92,7 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 ![Application Architecture Diagram](https://drive.google.com/file/d/12U5rOj0e7Z17PS97AQhreNdqWlc-85jm/view?usp=drive_link)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
+Replace `(https://drive.google.com/file/d/12U5rOj0e7Z17PS97AQhreNdqWlc-85jm/view?usp=drive_link)` with your actual diagram file name.
 
 ---
 
@@ -173,10 +171,10 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](https://drive.google.com/file/d/1HVcV70KvEARU1SBIQRCfR6JTKa2G-kA7/view?usp=drive_link)
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
+Replace `(https://drive.google.com/file/d/1HVcV70KvEARU1SBIQRCfR6JTKa2G-kA7/view?usp=drive_link)`with your actual screenshot file name.
 
 ---
 
