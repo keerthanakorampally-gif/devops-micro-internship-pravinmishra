@@ -244,7 +244,22 @@ Contact info
 Paste the full text of your LinkedIn post here:
 
 Add your post content here...
+🚀 My DevOps Assignment
+I’m excited to share my recent DevOps assignment, where I learned and practiced important concepts related to DevOps and software development.
 
+📌 Topics covered:
+• Networking protocols
+• DNS and IP addressing
+• TCP/IP, HTTP and HTTPS
+• Two-tier and Three-tier applications
+• MySQL and PostgreSQL
+• Visual Studio Code and terminal commands
+
+This assignment helped me understand how different technologies work together in real-world software development and deployment.
+
+I’m looking forward to learning more about DevOps, Cloud Computing, Automation, and CI/CD. 💻🚀
+
+#DevOps #Learning #Networking #CloudComputing #AIML #Technology #Student
 ---
 
 # Reflection – Week 0
@@ -252,19 +267,20 @@ Add your post content here...
 ### What did you find easy?
 
 Add your answer here...
-
+I found learning the basic concepts of networking, protocols, IP addresses, DNS, and HTTP/HTTPS easy to understand. I also found it easy to create simple diagrams and use basic commands in VS Code.
 ---
 
 ### What was difficult?
 
 Add your answer here...
+I found some DevOps concepts, especially understanding the difference between two-tier and three-tier applications and working with tools like VS Code and terminal commands, a little difficult at first. I needed some practice to understand them clearly.
 
 ---
 
 ### What will you improve next week?
 
 Add your answer here...
-
+Next week, I will improve my practical skills by practicing DevOps tools regularly. I will also spend more time understanding technical concepts, using the terminal, and completing tasks independently. My goal is to improve my confidence and learn new DevOps concepts step by step.
 ---
 
 ## 📌 About DMI & CloudAdvisory
