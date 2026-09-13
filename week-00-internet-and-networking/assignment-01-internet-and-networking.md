@@ -1,4 +1,4 @@
-# Week 00 - Internet and Networking
+Contact info# Week 00 - Internet and Networking
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -229,10 +229,12 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+Paste your LinkedIn post URL here:(https://www.linkedin.com/in/keerthana-korampally-43377a434)
+
+Contact info
 
 ```text
-Add your URL here...
+(https://www.linkedin.com/in/keerthana-korampally-43377a434)
 ```
 
 ---
