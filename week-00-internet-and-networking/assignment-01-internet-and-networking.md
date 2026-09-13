@@ -206,17 +206,17 @@ Use the credit note that matches your track:
 
 Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 **Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
 
 Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
 
 Add the following credit note at the end of your post **(If you are DMI Campus student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
 
 **Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
 
@@ -229,35 +229,46 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:(https://www.linkedin.com/in/keerthana-korampally-43377a434)
+Paste your LinkedIn post URL here:(https://www.linkedin.com/posts/keerthana-korampally-43377a434_1ai-driven-productivity-automation-chatgpt-share-7504840510822481920-S3Vr?utm_source=screenshot_social_share&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp).
 
 Contact info
 
-```text
-(https://www.linkedin.com/in/keerthana-korampally-43377a434)
+```
+(https://www.linkedin.com/posts/keerthana-korampally-43377a434_1ai-driven-productivity-automation-chatgpt-share-7504840510822481920-S3Vr?utm_source=screenshot_social_share&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp)
 ```
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+Paste the full text of your LinkedIn post here:1.AI-Driven Productivity & Automation (ChatGPT)
+Leveraging AI models to accelerate DevOps workflows, reduce configuration syntax errors, and speed up incident resolution.
+Pipeline & Script Generation: Writing CI/CD pipeline definitions (GitHub Actions, GitLab CI) and automation scripts (Bash, Python).
+Infrastructure as Code (IaC): Drafting and debugging Terraform manifests, Ansible playbooks, and Dockerfiles.
+Log Analysis & Troubleshooting: Parsing build logs, deployment stack traces, and runtime exceptions for rapid root-cause analysis.
+2. Internet & Networking Fundamentals
+Understanding network protocols to design secure, highly available, and resilient cloud architectures.
+Core Protocols & Security: HTTPS/TLS encryption, SSH key-based authentication, and the TCP/IP suite for secure server communication.
+Cloud Networking: Configuring Virtual Private Clouds (VPC), Subnets, CIDR blocks, Route Tables, and Security Groups/Firewalls.
+3. Application Architecture & Deployment Systems
+Structuring application environments to ensure seamless delivery, scalability, and system isolation.
+Scalability & Resilience: Implementing Auto-Scaling Groups and Kubernetes (K8s) orchestration for automated healing and scaling.
+Data Flow & API Management: Managing RESTful APIs and securing communication channels between front-end interfaces, microservice backend clusters, and databases.
+4. DNS (Domain Name System) :Management
+Configuring domain routing mechanisms to seamlessly point user traffic to live infrastructure.
+DNS Resolution Process: Understanding recursive queries, root servers, TLDs, and authoritative name servers in domain lookups.
+Record Configurations:
+A / AAAA Records: Mapping domain names directly to IPv4/IPv6 address endpoints.
+CNAME Records: Aliasing canonical domain names to external services or load balancers.
+TXT / MX Records: Handling domain ownership verification, SPF/DKIM policies, and mail routing.
+Traffic Routing Policies: Implementing Latency-based, Failover, and Geolocation routing via cloud providers (e.g., AWS Route 53, Cloudflare).
+5. Development Environment Setup (VS Code)
+Configuring a local workstation to interact seamlessly with remote cloud infrastructure and version control systems.
+Essential DevOps Extensions: Integrating tools like Docker, Kubernetes, HashiCorp Terraform, Remote - SSH, and GitLens.
+Version Control Integration: Managing local Git repos, branching strategies, commit hooks, and Pull Requests directly within the IDE.
 
-Add your post content here...
-🚀 My DevOps Assignment
-I’m excited to share my recent DevOps assignment, where I learned and practiced important concepts related to DevOps and software development.
-
-📌 Topics covered:
-• Networking protocols
-• DNS and IP addressing
-• TCP/IP, HTTP and HTTPS
-• Two-tier and Three-tier applications
-• MySQL and PostgreSQL
-• Visual Studio Code and terminal commands
-
-This assignment helped me understand how different technologies work together in real-world software development and deployment.
-
-I’m looking forward to learning more about DevOps, Cloud Computing, Automation, and CI/CD. 💻🚀
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI - Cohort 3 - by @Pravin Mishra. My progress is public: https://lnkd.in/gP_AUTiy • Start your DevOps journey: https://lnkd.in/gSqDeUWk
+@Anjana Muthunayake
 
 #DevOps #Learning #Networking #CloudComputing #AIML #Technology #Student
 ---
@@ -265,21 +276,15 @@ I’m looking forward to learning more about DevOps, Cloud Computing, Automation
 # Reflection – Week 0
 
 ### What did you find easy?
-
-Add your answer here...
 I found learning the basic concepts of networking, protocols, IP addresses, DNS, and HTTP/HTTPS easy to understand. I also found it easy to create simple diagrams and use basic commands in VS Code.
 ---
 
 ### What was difficult?
-
-Add your answer here...
 I found some DevOps concepts, especially understanding the difference between two-tier and three-tier applications and working with tools like VS Code and terminal commands, a little difficult at first. I needed some practice to understand them clearly.
 
 ---
 
 ### What will you improve next week?
-
-Add your answer here...
 Next week, I will improve my practical skills by practicing DevOps tools regularly. I will also spend more time understanding technical concepts, using the terminal, and completing tasks independently. My goal is to improve my confidence and learn new DevOps concepts step by step.
 ---
 
