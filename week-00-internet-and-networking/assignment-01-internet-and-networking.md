@@ -25,16 +25,16 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](https://drive.google.com/drive/folders/1cpqmKLtlgoiUkzAToSjhy3yIq84gVEHi?usp=drive_link)
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+Replace `https://drive.google.com/drive/folders/1cpqmKLtlgoiUkzAToSjhy3yIq84gVEHi?usp=drive_link` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a networking protocol is a set of rules that helps devices communicate and exchange data correctly. I understood that protocols work like traffic rules, allowing computers to communicate smoothly and reliably.
 
 ---
 
@@ -60,7 +60,7 @@ Write a short explanation (**100–150 words**) that includes:
 ## Answer
 
 Add your answer here...
-
+Packet Switching, IP Address, TCP/IP, and HTTP/HTTPS: Packet Switching is a method of sending data over a network by dividing it into small packets. These packets travel through different routes and are reassembled at the destination. An IP Address is a unique numerical address assigned to a device on a network. It helps identify devices and deliver data to the correct destination. TCP/IP is a set of communication protocols used on the Internet. TCP ensures reliable delivery of data, while IP handles addressing and routing. HTTP stands for HyperText Transfer Protocol and is used to transfer web pages between a browser and a web server. HTTPS is the secure version of HTTP that encrypts data during transmission. These networking concepts work together to make Internet communication fast, reliable, and secure.
 ---
 
 # 🏗️ Task 3: Application Architecture & Stack
@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](https://drive.google.com/file/d/12U5rOj0e7Z17PS97AQhreNdqWlc-85jm/view?usp=drive_link)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -101,19 +101,16 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 ## Technologies Used
 
 ### Frontend
-
-* Add your answer here...
-* Add your answer here...
+Two-Tier Application	HTML, CSS, JavaScript
+Three-Tier Application	HTML, CSS, JavaScript, React.js
 
 ### Backend
-
-* Add your answer here...
-* Add your answer here...
+Two-Tier Application	Java, JDBC
+Three-Tier Application	Node.js, Express.js
 
 ### Database
-
-* Add your answer here...
-* Add your answer here...
+Two-Tier Application	MySQL, PostgreSQL
+Three-Tier Application	MySQL, PostgreSQL
 
 ---
 
@@ -140,10 +137,8 @@ In **50–100 words**, explain in your own words:
 1. What is DNS (Domain Name System)?
 2. Which DNS record type should be used to connect the domain to the given IP, and why?
 
-## Answer
-
-Add your answer here...
-
+## Answer:
+DNS (Domain Name System) is a system that converts human-readable domain names, such as `www.google.com`, into IP addresses that computers use to communicate. It works like a phonebook for the Internet, helping users access websites using easy-to-remember names. To connect a domain name to a given **IPv4 address**, an **A record** should be used because it maps a domain name directly to an IPv4 address. If the given IP address is **IPv6**, an **AAAA record** should be used instead. Therefore, the correct record depends on the type of IP address provided.
 ---
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
