@@ -289,7 +289,6 @@ Next week, I will improve my practical skills by practicing DevOps tools regular
 ## 📌 About DMI & CloudAdvisory
 
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
 It helps learners build strong DevOps foundations with hands-on experience.
 
 
