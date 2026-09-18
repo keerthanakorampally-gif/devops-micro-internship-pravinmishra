@@ -29,7 +29,8 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 )
 
 
-Replace `https://drive.google.com/drive/folders/1cpqmKLtlgoiUkzAToSjhy3yIq84gVEHi?usp=drive_link` with your actual screenshot file name.
+Replace `<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/1a1aebb9-16af-4c01-abad-51c2148aa2f5" />
+)` with your actual screenshot file name.
 
 ---
 
@@ -94,7 +95,7 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 )
 
 
-Replace `(https://drive.google.com/file/d/12U5rOj0e7Z17PS97AQhreNdqWlc-85jm/view?usp=drive_link)` with your actual diagram file name.
+Replace `(<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/8d40a878-bc10-4891-bc37-1d91e88349e9" />)` with your actual diagram file name.
 
 ---
 
@@ -177,7 +178,8 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 )
 
 
-Replace `(https://drive.google.com/file/d/1HVcV70KvEARU1SBIQRCfR6JTKa2G-kA7/view?usp=drive_link)`with your actual screenshot file name.
+Replace `(<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/65fe4dbe-4a0e-4273-9843-43a7ed53778e" />
+))`with your actual screenshot file name.
 
 ---
 
