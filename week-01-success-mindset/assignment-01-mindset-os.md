@@ -141,16 +141,32 @@ Hashtags:
 #DMIByPravinMishra #AgenticAI #DevOps
 
 ## Your Article:
-Tech Titan in the Making: How Keerthana Korampally Transformed Cloud Infrastructure with DevOps and Agentic AI
-SILICON VALLEY — Four years ago, Keerthana Korampally set out on a mission to bridge the gap between complex cloud architecture and intelligent automation. Today, that vision stands fully realized. As a Senior Lead DevOps and Agentic AI Architect, Korampally built end-to-end resilient infrastructure frameworks that redefined how enterprise systems operate at scale.
-Her journey accelerated during an intensive hands-on DevOps Micro Internship, where she shipped production-ready Kubernetes pipelines and engineered automated CI/CD workflows. Recognizing the shift toward autonomous systems, she led a high-impact initiative to integrate Agentic AI models into legacy cloud deployments. This project cut downtime by 40% across multi-region clusters and earned her industry-wide recognition.
-Korampally’s technical portfolio showcases an impressive track record. She authored and published five technical whitepapers on self-healing cloud infrastructure and contributed extensively to open-source DevOps tooling. Her GitHub repositories, featuring custom Terraform modules and automated infrastructure scripts, accumulated thousands of stars from engineers worldwide.
-Over the past three years, Korampally earned top-tier credentials, including the AWS Certified Solutions Architect – Professional and Certified Kubernetes Administrator (CKA) designations. Her leadership extended beyond her primary job role when she relocated to lead a distributed team of engineers, guiding them through a critical enterprise cloud migration.
-Beyond enterprise execution, Korampally prioritized community contribution. She founded an open-source learning initiative, mentored emerging tech talent, and frequently spoke at international cloud conferences on the intersection of DevOps and artificial intelligence.
-"She didn't just deploy code; she engineered seamless platforms that empowered entire engineering organizations to build faster," noted a former engineering director. Through relentless execution, technical mastery, and community leadership, Keerthana Korampally proved that the future of cloud computing belongs to those who innovate at the frontier of automation.
-P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3
-@Anjana Muthunayake
-#DMIByPravinMishra #AgenticAI #DevOps
+# My 2.0 Version: From Student to AI/ML Professional
+
+**A Future Success Story**
+
+By 2031, Keerthana Korampally had become a confident and skilled Artificial Intelligence and Machine Learning professional. Her journey from a B.Tech student to a successful technology professional was built through continuous learning, practical projects, discipline, and consistent effort.
+
+Keerthana completed her B.Tech in Artificial Intelligence and Machine Learning and developed strong skills in Python, data structures, machine learning, databases, cloud computing, and DevOps. During her college years, she built several practical projects, including a College Event Website using HTML, CSS, and JavaScript, a Python Number Guessing Game, and beginner-level machine learning applications. These projects helped her understand how technical concepts were used to solve real-world problems.
+
+She created a professional GitHub portfolio and published her source code, project reports, screenshots, and explanations. Her portfolio became proof of her technical growth and helped her demonstrate her abilities during job interviews. She also earned certifications in Python, Machine Learning, Cloud Computing, and DevOps through online learning platforms and internship programs.
+
+After graduation, Keerthana joined a technology company as a **Junior AI/ML Engineer**. Through hard work and successful project delivery, she progressed into the role of **AI/ML Engineer**. She contributed to data analysis, predictive modelling, automation, and intelligent application development. She also shipped an AI-based project that helped improve the efficiency of a business process.
+
+Keerthana published technical blogs on LinkedIn and Medium about Python, networking, machine learning, application architecture, and DevOps. Her simple explanations helped other students understand difficult technical topics. She also led small project teams, supported junior students, and participated in technical communities.
+
+Over time, she became known for her communication skills, leadership, problem-solving ability, and willingness to learn. She contributed to coding communities, shared study resources, and guided beginners in building their first projects. She also attended technical events and connected with professionals from different technology fields.
+
+Keerthana’s 2.0 version was not created in one day. It was built through daily practice, completed projects, certifications, public learning, teamwork, and meaningful contributions. Her journey showed that a student with clear goals and consistent action could become a capable professional and a positive influence on others.
+
+**Suggested publishing platforms:** LinkedIn or Medium.
+
+**Suggested images:**
+
+1. A professional photo of yourself.
+2. A screenshot of your GitHub portfolio.
+3. A screenshot of one completed project.
+
 
 ### Public Link
 Paste your link here:( https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp).
@@ -336,7 +352,6 @@ Sunday: 6:00 PM – 6:30 PM (Weekly review)
 
 5 sessions per week
 
----
 
 ### Distraction Rules
 
@@ -355,7 +370,6 @@ Take short breaks between focus sessions.
 Avoid unnecessary notifications.
 Follow my daily study schedule.
 
----
 
 # Reflection – Week 1
 
