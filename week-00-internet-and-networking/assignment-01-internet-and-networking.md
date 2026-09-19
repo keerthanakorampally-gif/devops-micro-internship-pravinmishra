@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/8d40a878-bc10-4891-bc37-1d91e88349e9" />
+![Application Architecture Diagram](screenshot/<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/8d40a878-bc10-4891-bc37-1d91e88349e9" />
 )
 
 
@@ -174,7 +174,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/65fe4dbe-4a0e-4273-9843-43a7ed53778e" />
+![VS Code Setup Screenshot](screenshot/<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/65fe4dbe-4a0e-4273-9843-43a7ed53778e" />
 )
 
 
