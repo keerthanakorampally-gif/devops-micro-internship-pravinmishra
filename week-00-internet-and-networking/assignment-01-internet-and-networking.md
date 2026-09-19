@@ -96,7 +96,7 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 )
 
 
-Replace `(<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/8d40a878-bc10-4891-bc37-1d91e88349e9" />)` with your actual diagram file name.
+Replace `(screenshot/<img width="1536" height="1024" alt="ChatGPT Image Sep 18, 2026, 06_16_38 PM" src="https://github.com/user-attachments/assets/d974d60c-cd8a-43de-88bb-5e5e8bc33603" />` with your actual diagram file name.
 
 ---
 
@@ -180,8 +180,8 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 )
 
 
-Replace `(<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/65fe4dbe-4a0e-4273-9843-43a7ed53778e" />
-))`with your actual screenshot file name.
+Replace `(screenshot/<img width="956" height="521" alt="Screenshot 2026-09-13 155039" src="https://github.com/user-attachments/assets/177e63b1-e68d-4630-967b-bd3c9cd52e2c" />
+`with your actual screenshot file name.
 
 ---
 
