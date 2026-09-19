@@ -91,7 +91,8 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshot/<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/8d40a878-bc10-4891-bc37-1d91e88349e9" />
+![Application Architecture Diagram](screenshot/<img width="1536" height="1024" alt="ChatGPT Image Sep 18, 2026, 06_16_38 PM" src="https://github.com/user-attachments/assets/d974d60c-cd8a-43de-88bb-5e5e8bc33603" />
+
 )
 
 
