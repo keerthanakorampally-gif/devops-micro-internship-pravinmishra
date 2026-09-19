@@ -175,7 +175,8 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshot/<img width="718" height="1599" alt="WhatsApp Image 2026-09-18 at 6 14 49 PM" src="https://github.com/user-attachments/assets/65fe4dbe-4a0e-4273-9843-43a7ed53778e" />
+![VS Code Setup Screenshot](screenshot/<img width="956" height="521" alt="Screenshot 2026-09-13 155039" src="https://github.com/user-attachments/assets/177e63b1-e68d-4630-967b-bd3c9cd52e2c" />
+
 )
 
 
