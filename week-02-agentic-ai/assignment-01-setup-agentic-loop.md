@@ -1,4 +1,4 @@
-# Assignment 1 — Your First Agentic Session
+<img width="730" height="332" alt="Screenshot 2026-09-22 154307" src="https://github.com/user-attachments/assets/70e1f319-3667-4f8b-821c-8f8a099768c7" /># Assignment 1 — Your First Agentic Session
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -20,9 +20,9 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-Add your screenshot here.
+screenshot <img width="730" height="332" alt="Screenshot 2026-09-22 154307" src="https://github.com/user-attachments/assets/42bb0671-1f85-4918-9267-c4d5e0c564df" />
 
----
+
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
