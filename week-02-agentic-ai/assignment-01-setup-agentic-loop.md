@@ -39,7 +39,8 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-screenshot <img width="1536" height="1024" alt="WhatsApp Image 2026-09-22 at 7 44 34 PM" src="https://github.com/user-attachments/assets/39608901-2e05-4fc0-8605-fbde454f46bb" />
+screenshot <img width="1536" height="515" alt="WhatsApp Image 2026-09-22 at 8 03 58 PM" src="https://github.com/user-attachments/assets/cf70a206-2ac2-4fe8-b549-42ad9815dfc4" />
+
 
 
 ---
