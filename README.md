@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | keerthana korampally |
-| **LinkedIn** | https://www.linkedin.com/in/keerthana-korampally-43377a434/ |
+| **LinkedIn** |https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp |
 | **Location** | karimnagar,Telangana |
 | **Background** | Cloud, DevOps & AI Consultant |
 | **Goal** | Train 10,000+ DevOps professionals |
