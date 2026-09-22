@@ -26,9 +26,8 @@ screenshot <img width="730" height="332" alt="Screenshot 2026-09-22 154307" src=
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
+screenshot <<img width="1671" height="941" alt="ChatGPT Image Sep 22, 2026, 04_13_04 PM" src="https://github.com/user-attachments/assets/512b540f-2e16-4efa-bf8f-33690123f96f" />
 
----
 
 # Task 2 — Fork and Clone the Starter Repository
 
