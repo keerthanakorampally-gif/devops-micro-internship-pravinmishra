@@ -171,7 +171,7 @@ Keerthana’s 2.0 version was not created in one day. It was built through daily
 ### Public Link
 Paste your link here:( https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp).
 
-`https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsappAdd your URL here`
+`https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp`
 
 ---
 
