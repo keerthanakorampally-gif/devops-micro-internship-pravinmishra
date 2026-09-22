@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | keerthana korampally |
-| **LinkedIn** |https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-devops-share-7504877801863458816-FDIL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk&utm_campaign=whatsapp |
+| **LinkedIn** |www.linkedin.com/in/keerthana-korampally-43377a434|
 | **Location** | karimnagar,Telangana |
 | **Background** | Cloud, DevOps & AI Consultant |
 | **Goal** | Train 10,000+ DevOps professionals |
@@ -131,7 +131,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed |✅ Solved | https://lnkd.in/p/dn3jhCAc | https://medium.com/@keerthanakorampally/my-devops-learning-journey-week-00-internet-networking-6fe8296c7206?sharedUserId=keerthanakorampally |
-| 01 | Success Mindset |✅ Completed | ✅ Solved | https://lnkd.in/p/dHjXQiHZ | https://medium.com/@keerthanakorampally/week-1-success-mindset-building-my-mindset-os-e07053520f82 |
+| 01 | Success Mindset |✅ Completed | ✅ Solved |https://lnkd.in/p/dpHBCMHM | https://medium.com/@keerthanakorampally/week-1-success-mindset-building-my-mindset-os-e07053520f82 |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
