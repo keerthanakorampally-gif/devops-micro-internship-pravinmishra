@@ -1,4 +1,4 @@
-<img width="730" height="332" alt="Screenshot 2026-09-22 154307" src="https://github.com/user-attachments/assets/70e1f319-3667-4f8b-821c-8f8a099768c7" /># Assignment 1 — Your First Agentic Session
+# Assignment 1 — Your First Agentic Session
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
