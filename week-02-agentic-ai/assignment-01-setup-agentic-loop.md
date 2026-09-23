@@ -43,8 +43,6 @@ screenshot <img width="1920" height="1080" alt="Screenshot (29)" src="https://gi
 
 
 
----
-
 # Task 3 — Observe the Agentic Loop
 
 ## Goal
@@ -60,9 +58,8 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5c5b4e7-177f-4eaa-bf04-e710cf1397e3" />
 
----
 
 # Task 4 — Share Your First Agentic AI Achievement
 
