@@ -89,8 +89,6 @@ Paste your forked repository URL here:
 
 `https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra`
 
----
-
 # Completion Checklist
 
 - [✅] Claude Code CLI installed successfully
