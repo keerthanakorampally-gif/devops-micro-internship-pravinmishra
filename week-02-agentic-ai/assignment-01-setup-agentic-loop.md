@@ -93,12 +93,12 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] Claude Code CLI installed successfully
-- [ ] Claude Code authenticated successfully
-- [ ] Repository forked successfully
-- [ ] Repository cloned and opened in VS Code
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [yes] Claude Code CLI installed successfully
+- [yes] Claude Code authenticated successfully
+- [yes] Repository forked successfully
+- [yes] Repository cloned and opened in VS Code
+- [yes] All required screenshots added
+- [yes] GitHub repository URL provided
 
 ---
 
