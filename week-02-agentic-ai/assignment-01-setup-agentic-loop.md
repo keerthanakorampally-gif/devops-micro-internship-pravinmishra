@@ -71,9 +71,7 @@ Share your completed Agentic AI session and DMI Leaderboard progress on LinkedIn
 
 #### Screenshot 6 — Published LinkedIn post showing the caption and shared DMI Leaderboard progress
 
-Add your screenshot here.
-
----
+<img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/7b7ac9bc-3054-4d31-a064-cffddeae9fd8" />
 
 
 # Submission Instructions
