@@ -64,13 +64,12 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f2bf868-1543-4332-a116-2722cfd4027d" />
 
 
----
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f675449c-33cc-4894-bf2d-62ef99c87dc0" />
 
----
+
 
 # Task 5 — Commit and push your changes to your fork in GitHub
 
