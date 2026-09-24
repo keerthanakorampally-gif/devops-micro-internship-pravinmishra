@@ -35,6 +35,7 @@ Place all required skill files into their correct directories and verify their c
 ### Evidence
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac186f9a-a327-4101-8b13-37e36b5a9311" />
 
 
 
