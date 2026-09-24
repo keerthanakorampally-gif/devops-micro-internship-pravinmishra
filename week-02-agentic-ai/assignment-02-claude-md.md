@@ -81,9 +81,8 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/77dcbdf0-e1d6-44a7-8c8b-ffbf88d3d60b" />
 
----
 
 # Submission Instructions
 
@@ -97,7 +96,9 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`devops-micro-internship-pravinmishrakeerthanakorampally-gif/devops-micro-internship-pravinmishra`
+https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
+
+
 
 ---
 
