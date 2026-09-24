@@ -87,7 +87,8 @@ Share your completed Agentic AI session and DMI Leaderboard progress on LinkedIn
 
 Paste your forked repository URL here:
 
-`https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra`
+https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
+https://github.com/keerthanakorampally-gif/Ultimate-Agentic-DevOps-with-Claude-Code
 
 # Completion Checklist
 
