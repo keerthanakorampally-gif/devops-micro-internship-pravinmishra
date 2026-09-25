@@ -55,7 +55,8 @@ The tf-writer uses inherit so that it can inherit the model configuration from i
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f1e429a-cd1d-4531-bc34-bb437c109161" />
+
 
 ---
 
