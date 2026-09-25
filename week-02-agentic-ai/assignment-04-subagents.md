@@ -84,7 +84,8 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcf20a84-e16b-4e9b-8099-73fbca91d7bc" />
+
 
 ---
 
