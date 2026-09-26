@@ -82,7 +82,6 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 <img width="1600" height="900" alt="WhatsApp Image 2026-09-26 at 12 01 55 PM" src="https://github.com/user-attachments/assets/647eef23-61a9-459c-ba9e-9cfaf56ad521" />
 
 
----
 
 # Submission Instructions
 
@@ -98,7 +97,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+: https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
 
 ---
 
@@ -106,21 +105,21 @@ Paste your forked repository URL here:
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [✅] `settings.local.json` is added to `.gitignore`
+- [✅] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub PAT created with correct scopes (`repo`, `read:user`)
-- [ ] `.mcp.json` created at project root
-- [ ] `.claude/settings.local.json` contains token (hidden in screenshot)
-- [ ] `.claude/settings.local.json` is NOT committed
-- [ ] `/mcp` shows GitHub connection as active
-- [ ] Live GitHub query returns real repository data
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
+- [✅] GitHub PAT created with correct scopes (`repo`, `read:user`)
+- [✅] `.mcp.json` created at project root
+- [✅] `.claude/settings.local.json` contains token (hidden in screenshot)
+- [✅] `.claude/settings.local.json` is NOT committed
+- [✅] `/mcp` shows GitHub connection as active
+- [✅] Live GitHub query returns real repository data
+- [✅] All required screenshots added
+- [✅] GitHub repository URL included
 
 ---
 
