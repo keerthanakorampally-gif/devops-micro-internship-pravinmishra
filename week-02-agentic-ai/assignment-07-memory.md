@@ -79,7 +79,8 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a386b692-bebf-4eda-b9fc-f87280a8a972" />
+
 
 ---
 
