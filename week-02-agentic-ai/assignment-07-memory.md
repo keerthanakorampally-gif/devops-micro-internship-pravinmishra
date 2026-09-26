@@ -105,7 +105,7 @@ https://lnkd.in/p/gVs3k6X3
 
 Paste your forked repository URL here:
 
-https://github.com/keerthanakorampally-gif/Ultimate-Agentic-DevOps-with-Claude-Code.git?utm_source=chatgpt.com
+https://github.com/keerthanakorampally-gif/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 
