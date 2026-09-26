@@ -97,7 +97,8 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 Paste your forked repository URL here:
 
-: https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
+https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
+
 
 ---
 
