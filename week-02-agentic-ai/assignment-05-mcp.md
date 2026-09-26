@@ -64,7 +64,8 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+<img width="1912" height="921" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/83729a18-7956-473a-a5ce-005fa3b85e4b" />
+
 
 ---
 
