@@ -132,7 +132,7 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed |✅ Solved | https://lnkd.in/p/dn3jhCAc | https://medium.com/@keerthanakorampally/my-devops-learning-journey-week-00-internet-networking-6fe8296c7206?sharedUserId=keerthanakorampally |
 | 01 | Success Mindset |✅ Completed | ✅ Solved |https://lnkd.in/p/dpHBCMHM | https://medium.com/@keerthanakorampally/week-1-success-mindset-building-my-mindset-os-e07053520f82 |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://lnkd.in/p/gVs3k6X3 | |https://medium.com/@keerthanakorampally/reflection-week-2-2ab9f1a4d564 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://lnkd.in/p/gVs3k6X3 | | https://medium.com/@keerthanakorampally/reflection-week-2-2ab9f1a4d564 |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
