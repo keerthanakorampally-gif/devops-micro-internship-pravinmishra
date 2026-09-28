@@ -46,7 +46,8 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3417dcf4-ddd1-4167-9795-31203abdb0ab" />
+
 
 ---
 
@@ -54,7 +55,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`Add your URL here`
+https://medium.com/@keerthanakorampally/reflection-week-2-2ab9f1a4d564?utm_source=chatgpt.com
 
 ---
 
