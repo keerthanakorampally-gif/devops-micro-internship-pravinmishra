@@ -93,7 +93,8 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/c2267882-b492-4293-ac42-7874f524d8bc" />
+
 
 ---
 
@@ -101,15 +102,27 @@ Add your screenshot here.
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
+🚀 Week 2 Learning – DevOps Micro Internship with Agentic AI
+
+Week 2 was a valuable learning experience for me. I explored Claude Code and learned how AI coding assistants can understand project files, follow instructions, and work through an agentic loop.
+
+I also learned about Skills, Subagents, MCP, Hooks, Permissions, and Memory. These concepts helped me understand how AI-assisted development can be customized and controlled for different tasks.
+
+One of my biggest learnings this week was that using AI effectively is not only about asking questions. It is also about providing clear instructions, understanding the tools, checking the results, and learning from errors.
+
+I faced some setup and troubleshooting challenges during the week, but solving them step by step improved my confidence and technical understanding.
+
+I am continuing to learn, build, and share my progress publicly. 🚀
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: [https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html](https://dmi.pravinmishra.com/s/keerthanakorampally-gif.html) · Start your DevOps journey: [https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3](https://dmi.pravinmishra.com/?utm_source=student\&utm_medium=ps-linkedin\&utm_campaign=cohort3)
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://www.linkedin.com/in/keerthana-korampally/?utm_source=chatgpt.com
 
 ---
 
@@ -125,15 +138,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
+* [✅] Blog link added
+* [✅] LinkedIn post link added
+* [✅] Screenshots added to GitHub repo
 
 ---
 
