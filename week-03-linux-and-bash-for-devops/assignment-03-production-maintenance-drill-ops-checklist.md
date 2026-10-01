@@ -174,7 +174,8 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+
+Restore the backup configuration, test the syntax with `sudo nginx -t`, and reload or restart the service.
 
 ---
 
@@ -186,7 +187,11 @@ Write your answer here.
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+If the error logs show no recent errors, it typically indicates two main things about the system:
+
+1. **The service is healthy and running normally:** Nginx parsed its configuration files without syntax or resource conflicts and is actively processing or waiting for requests without encountering system-level failures.
+2. **No fatal errors or startup crashes occurred:** The system did not encounter critical failures—such as port conflicts, missing SSL certificates, or permission issues—that would cause Nginx to crash or fail to start.
+
 
 ---
 
