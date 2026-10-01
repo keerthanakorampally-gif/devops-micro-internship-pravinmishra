@@ -131,7 +131,8 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/865b555e-a9b8-4fa9-8f0d-69cbdd4982bb" />
+
 
 ---
 
@@ -169,17 +170,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Node.js and npm installed and verified (Screenshot 1)
-- [ ] Nginx installed and running (Screenshot 2)
-- [ ] Repository cloned and files verified (Screenshot 3)
-- [ ] App.js updated with full name and date (Screenshot 4)
-- [ ] Production build generated (Screenshot 5)
-- [ ] Build files deployed to Nginx web root (Screenshot 6)
-- [ ] Nginx configured and active (Screenshots 7 & 8)
-- [ ] Public IP retrieved (Screenshot 9)
-- [ ] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✅] Node.js and npm installed and verified (Screenshot 1)
+- [✅] Nginx installed and running (Screenshot 2)
+- [✅] Repository cloned and files verified (Screenshot 3)
+- [✅] App.js updated with full name and date (Screenshot 4)
+- [✅] Production build generated (Screenshot 5)
+- [✅] Build files deployed to Nginx web root (Screenshot 6)
+- [✅] Nginx configured and active (Screenshots 7 & 8)
+- [✅] Public IP retrieved (Screenshot 9)
+- [✅] React app accessible in browser with personal details visible (Screenshot 10)
+- [✅] LinkedIn post published and URL submitted
+- [✅] No sensitive data exposed
 
 ---
 
