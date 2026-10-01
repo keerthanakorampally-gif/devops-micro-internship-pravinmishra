@@ -34,13 +34,15 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (254)" src="https://github.com/user-attachments/assets/174fc9a7-b950-4303-b9b0-f121d0ac318e" />
+
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (255)" src="https://github.com/user-attachments/assets/eededed6-25b0-42e5-a9d4-7e9715166516" />
+
 
 ---
 
@@ -76,7 +78,8 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (259)" src="https://github.com/user-attachments/assets/5d48ad5e-c438-4844-89cc-63e125c8e556" />
+
 
 ---
 
