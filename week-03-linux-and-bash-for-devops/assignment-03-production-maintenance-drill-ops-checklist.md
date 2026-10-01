@@ -52,19 +52,31 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+A successful network socket check using tools like `netstat`, `ss`, or `lsof` (such as `ss -tulpn` or `netstat -tuln`) showing `0.0.0.0:80` with state `LISTEN` under process `nginx`.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+A successful socket check or process check showing a service bound to port 22 in a listening state. Specific command outputs that prove SSH is actively listening on port 22 include:
+
+* **Socket check (`ss` or `netstat`):** Running `ss -tulpn | grep :22` or `netstat -tuln | grep :22` returns a line showing `0.0.0.0:22` (or `:::22`) with the state **`LISTEN`**, associated with the `sshd` process.
+* **Port connectivity (`nc` or `telnet`):** Running `nc -zv <host> 22` or `telnet <host> 22` successfully establishes a connection and receives an SSH banner string (e.g., `SSH-2.0-OpenSSH_...`).
+* **Service status (`systemctl`):** Running `systemctl status sshd` or `systemctl status ssh` shows the service status as **`active (running)`**.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+I cannot check or scan your specific machine or network for open ports, as I don't have access to your local system or network context.
+
+To check if there are any unexpected open ports running on your system, you can inspect active listeners yourself by using one of these standard commands:
+
+* **Linux:** `ss -tulpn` or `netstat -tuln`
+* **macOS:** `sudo lsof -i -P -n | grep LISTEN`
+* **Windows (Command Prompt):** `netstat -ano | findstr LISTEN`
+
+Look through the local port numbers in the output. Any port that isn't tied to a service you intentionally configured (like port `80` for Nginx or port `22` for SSH) could be an unexpected open port worth investigating.
 
 ---
 
@@ -103,13 +115,24 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart in a production environment, the main website or web app goes completely offline.
+
+Because a **restart** forces the running Nginx process to shut down before starting a new one, active user connections are immediately severed. When the new process fails to launch due to a configuration or resource error, no web server is left running to handle incoming requests. As a result, users visiting the site encounter connection timeouts or "Connection Refused" errors, and any backend applications (like API servers, Node.js, or PHP) sitting behind Nginx become completely unreachable to the outside world.
+
+Conversely, if you perform a **reload** rather than a restart, Nginx tests the new configuration first. If the configuration contains errors, Nginx simply aborts the reload, keeps the previous working configuration active, and leaves the live site running without any service interruption or downtime.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+If Nginx fails to start after a configuration change or deployment, follow these three steps to revert to a working state immediately:
+
+1. **Restore the last known good configuration:**
+Copy your backup configuration file over the broken one (e.g., `cp /etc/nginx/nginx.conf.bak /etc/nginx/nginx.conf`).
+2. **Verify the syntax:**
+Run `sudo nginx -t` to ensure the restored configuration passes the syntax test.
+3. **Reload or restart Nginx:**
+Run `sudo systemctl reload nginx` (or `sudo systemctl restart nginx` if the process had completely stopped) to bring the service back online.
 
 ---
 
