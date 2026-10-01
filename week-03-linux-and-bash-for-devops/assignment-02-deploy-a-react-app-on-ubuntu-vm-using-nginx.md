@@ -150,13 +150,14 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/dNU3iRwZ
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e5d8a298-fcac-4647-84be-d053f92cb02c" />
+
 
 ---
 
