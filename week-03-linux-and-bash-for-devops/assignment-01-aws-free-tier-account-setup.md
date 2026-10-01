@@ -20,19 +20,41 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is your secure, personal workspace on Amazon Web Services that grants you access to cloud computing resources and infrastructure. At this stage, you need it to get hands-on experience, deploy cloud applications, and practice DevOps workflows directly within a live cloud environment. It also allows you to take advantage of the AWS Free Tier to learn industry-standard tools without incurring immediate costs.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+The **AWS Free Tier** provides free access to over 100 Amazon Web Services, allowing hands-on experience without incurring immediate costs up to specified usage limits.
+
+### Duration & Categories
+
+Its duration depends on the three distinct types of free offers available:
+
+* **12-Months Free:** Available to new AWS accounts for the first 12 months after signup. Includes core services like EC2 (750 hours/month) and S3 (5 GB storage).
+* **Always Free:** Offers that never expire and are available to both new and existing customers indefinitely (e.g., AWS Lambda up to 1 million free requests per month).
+* **Short-Term Trials:** Short-term free trials starting from the date a specific service is first activated (e.g., 30-day or 2-month trials for services like Amazon Redshift or GuardDuty).
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Here are three popular AWS Free Tier services along with their specific free usage limits:
+
+1. **Amazon EC2 (Elastic Compute Cloud)**
+* **Limit:** 750 hours per month of Linux, RHEL, or SLES t2.micro or t3.micro instance usage (or Windows t2.micro/t3.micro, depending on region).
+* **Duration:** 12 Months Free.
+
+
+2. **Amazon S3 (Simple Storage Service)**
+* **Limit:** 5 GB of Standard Storage, 20,000 `GET` Requests, and 2,000 `PUT`, `COPY`, `POST`, or `LIST` Requests per month.
+* **Duration:** 12 Months Free.
+
+
+3. **AWS Lambda**
+* **Limit:** 1 million free requests per month and 3.2 million seconds of compute time per month.
+* **Duration:** Always Free (does not expire after 12 months).
 
 ---
 
@@ -56,7 +78,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3bf5263f-148d-435a-84f9-478af604f396" />
+
 
 ---
 
@@ -70,11 +93,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+- [✅] Task 1 answers written in own words
+- [✅] AWS Free Tier account created successfully
+- [✅] Signed in to AWS Management Console
+- [✅] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [✅] All required screenshots added to repository
 
 ---
 
