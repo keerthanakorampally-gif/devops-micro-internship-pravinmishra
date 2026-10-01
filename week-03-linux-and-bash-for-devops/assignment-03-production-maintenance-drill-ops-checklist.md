@@ -235,14 +235,21 @@ Assess server capacity and detect potential performance or failure risks.
 Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
-
-Write your answer here.
+While high CPU load slows processing and high memory usage can trigger swap or the Out-Of-Memory (OOM) killer targeting specific processes, running out of disk space causes widespread, catastrophic failures across the entire system. Applications, databases, and system utilities rely on disk access to write log files, update databases, create temporary files, and manage runtime sockets. Once disk space hits 100%, nearly all processes fail simultaneously.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+commit write transactions or record write-ahead logs (WAL). This often causes database daemons to crash immediately and can lead to data corruption.
+
+Services fail to write logs: Web servers (Nginx, Apache) and system services crash because they cannot write to /var/log/.
+
+Temporary files fail: Essential system processes and scripts that rely on /tmp or /var/tmp to store temporary state fail to execute.
+
+SSH and terminal lockouts: Users may be unable to log in via SSH because authentication services cannot write user session data, lockfiles, or shell history.
+
+Cascading application downtime: Web applications fail to handle user requests, returning 500 Internal Server Errors or dropping connections entirely.
 
 ---
 
@@ -280,7 +287,12 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+To confirm that the correct version of an application is deployed, check the running version using one or more of these standard methods:
+
+* **Query a Version Endpoint (`/health` or `/version`):** Send a request (e.g., `curl [https://example.com/api/version](https://example.com/api/version)`) to a dedicated endpoint that exposes build metadata, such as the Git commit hash, semantic version number, or build timestamp.
+* **Inspect the Git Commit Hash or Tag:** Check the deployment directory or runtime environment directly (e.g., `git log -1 --format="%H"` or `git describe --tags`) to verify which commit or release tag is checked out.
+* **Check Container or Package Tags:** For containerized environments (like Docker or Kubernetes), verify the image tag or digest currently running (e.g., `docker ps` or `kubectl get deployment <app-name> -o yaml | grep image`) to ensure it matches the targeted release.
+* **Verify Static File Hashes / Deployment Artifacts:** Inspect built assets, JavaScript bundles, or binary checksums (`sha256sum`) to ensure the generated artifacts match the continuous integration (CI) build output for that specific version.
 
 ---
 
@@ -316,19 +328,25 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The failure was caused by a configuration error in the web server's settings—most commonly a syntax error (like a missing semicolon or typo), a duplicate port binding (e.g., attempting to bind to port 80 or 443 when another process is already listening), a missing SSL certificate file/path, or insufficient file permissions for required resources.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+The issue was resolved by reviewing system error logs (or running sudo nginx -t) to identify the specific error line, restoring a known working backup configuration (or correcting the invalid directive in the active config file), verifying the syntax passed cleanly, and performing a graceful reload of the service (sudo systemctl reload nginx).
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+Automate Syntax Testing: Always run a configuration check (nginx -t) in automated deployment scripts or CI/CD pipelines before initiating a reload or restart.
+
+Use Graceful Reloads Over Restarts: Always prefer systemctl reload instead of restart in production. A reload tests the new configuration before applying it, keeping existing worker processes active and online if the new configuration fails.
+
+Maintain Version Control & Infrastructure as Code: Store all web server configurations in Git. This makes changes trackable, peer-reviewable, and instantly reversible if a bug slips through.
+
+Test in Staging Environments: Apply and test configuration updates in a staging or preview environment that mirrors production before pushing changes live.
 
 ---
 
@@ -358,19 +376,55 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke due to database connection pool exhaustion and subsequent high-memory contention, which ultimately caused the application instance to become unresponsive and crash (HTTP 500 / 503 errors and ERR_CONNECTION_REFUSED).
+
+Root Cause Analysis:
+
+Unclosed Database Connections: A recently merged code change omitted explicit connection release logic (db.close() / standard context management) inside an asynchronous background task.
+
+Connection Pool Depletion: Under peak traffic, background threads continually opened new database connections without releasing existing ones back to the pool, exhausting the maximum pool limit (max_connections = 100).
+
+Resource Spikes: Requests began queuing up while waiting for available connections, causing memory usage to spike until the process hit its memory cap and was terminated by the system host/container orchestrator.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+Immediate Mitigation (Service Restoration):
+
+Restarted Application Instances: Restarted the application service containers/processes to immediately force-close leaked socket connections and clear accumulated memory.
+
+Temporarily Scaled Connection Pool: Increased the database server's dynamic max_connections limit to handle temporary surge traffic while deploying the code fix.
+
+Permanent Code Fix:
+
+Resource Management: Wrapped all database queries inside structured context managers (e.g., try...finally or using/with statement blocks) to ensure connections are safely returned to the pool, even if a runtime exception occurs.
+
+Added Query Timeout Constraints: Set explicit socket and query timeouts on the client configuration so hanging queries terminate automatically instead of holding connection slots indefinitely.
+
+Deployed Patch: Verified the fix through automated integration tests and deployed the patch to production.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To ensure long-term resilience against similar resource leaks and outage scenarios, implement the following guardrails:
+
+Automated Code Analysis & Linting:
+
+Configure static analysis tools (e.g., SonarQube, ESLint, CodeClimate) in the CI/CD pipeline to catch unhandled resource allocations, missing finally blocks, and improper connection handling before code is merged.
+
+Connection Pool Health Monitoring & Alerts:
+
+Set up Prometheus/Datadog metrics tracking connection pool utilization, active connection counts, and query wait duration. Configure proactive alerts (e.g., triggering a PagerDuty warning when connection pool utilization exceeds 80% for more than 2 minutes).
+
+Automated Load & Staging Testing:
+
+Run automated performance/soak testing (using tools like k6 or Locust) on non-production staging environments prior to production releases to identify connection and memory leaks under sustained load.
+
+Circuit Breakers & Graceful Degradation:
+
+Implement pattern resilience mechanisms like Circuit Breakers (e.g., Resilience4j) and Rate Limiting. If the database drops or becomes overwhelmed, fail fast with structured degradation or cached fallback data rather than locking system worker threads indefinitely.
 
 ---
 
@@ -386,31 +440,76 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication is fundamentally more secure than using passwords because it replaces a reusable secret sent over the network with a mathematical proof of identity using asymmetric cryptography.1. The Core Cryptographic AdvantagePasswords (Symmetric Shared Secret): Even over an encrypted SSH connection, your password—or a hash of it—must be verified against what the server holds. If an attacker gains access to the server, intercepting or cracking that stored credential exposes the same password used across other systems.SSH Keys (Asymmetric Key Pairs): Authentication uses a Public Key (placed on the server) and a Private Key (kept securely on your local machine).The server generates a random challenge and encrypts it using your public key.Your local client uses your private key to solve the challenge and send back a digital signature.Your private key is never transmitted across the network. An eavesdropper or compromised server cannot steal it to impersonate you elsewhere.2. Key Security DifferencesSecurity RiskPassword AuthenticationSSH Key-Based AuthenticationBrute-Force & Dictionary AttacksHigh Risk: Short or common passwords can be guessed using automated scripts trying millions of combinations.Nearly Impossible: A standard 4096-bit RSA or Ed25519 key has vastly more entropy than any human-rememberable password, making brute-forcing mathematically infeasible.Credential Theft / PhishingHigh Risk: Users can be tricked into entering passwords on fake terminals, or shoulder-surfed in public spaces.Mitigated: You cannot "type" a private key into a prompt or read it off a screen.Man-in-the-Middle (MitM)Vulnerable to Interception: If a user bypasses host key checks on a compromised connection, the password can be intercepted.Protected: Even on a compromised route, the private key remains on your device; only challenge signatures are sent.Human ErrorHigh: Users pick weak passwords, reuse them across multiple services, or write them down.Low: Keys are generated by cryptographically secure random number generators (CSPRNGs).3. Extra Protection Layers with KeysPassphrase Protection: Private keys can be encrypted locally with a strong passphrase. Even if your physical computer or disk is stolen, the attacker cannot use the private key without decrypting it first.Centralized Access Revocation: If a key is compromised, administrators simply remove the public key from the server’s ~/.ssh/authorized_keys file without needing to change any master account passwords or reset other users' access.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Only open required ports on a production server to minimize the attack surface and enforce the principle of least privilege. Every open port on an internet-facing or networked machine represents an active listening network service—and every listening service is a potential vector for exploitation.
+
+Here is a breakdown of why this practice is critical:
+
+1. Minimizes the Attack Surface
+Fewer Entry Points: An open port running a background service (e.g., SSH, FTP, Redis, Database) is an invitation for remote network connections. Closing unused ports removes those avenues entirely.
+
+Elimination of Unnecessary Services: Default OS installations often enable unnecessary background services (such as RPC, telnet, or SMB) by default. Disabling or firewalling these ports prevents attackers from finding easy targets during automated network scans (e.g., via Nmap or Shodan).
+
+2. Reduces Vulnerability to Zero-Day Exploits & CVEs
+Even if a specific service running on an open port has unpatched security vulnerabilities or unknown zero-day exploits, an attacker cannot exploit it over the network if the firewall drops traffic to that port before it reaches the application layer.
+
+3. Prevents Lateral Movement & Data Exfiltration
+Inbound Control: Restricting inbound ports (e.g., blocking direct access to database port 5432 from the public internet) ensures internal infrastructure cannot be reached directly without passing through secured jump hosts, load balancers, or VPNs.
+
+Outbound Control (Egress Filtering): Limiting outbound ports prevents compromised servers from communicating back to attacker-controlled Command and Control (C2) servers or exfiltrating stolen data over non-standard ports.
+
+4. Mitigates Brute-Force and Automated Scans
+Exposed administrative or database ports (e.g., SSH port 22, RDP port 3389, MySQL port 3306) are subjected to continuous automated credential-stuffing and brute-force attacks. Closing or restricting access to these ports eliminates signal noise and reduces CPU/log overhead caused by malicious bots.
+
+Best Practices for Port Security
+Default Deny Policy: Set up firewalls (such as ufw, iptables, or cloud Security Groups) with an implicit deny all inbound traffic rule, explicitly whitelisting only the specific required ports (e.g., 80/443 for web traffic).
+
+Network Segmentation & VPNs: Keep database and management ports open strictly on internal loopback (127.0.0.1) or private VPC interfaces, exposing them only via encrypted VPN or SSH tunnels.
+
+Routine Port Audits: Regularly audit listening ports using netstat commands (netstat -tuln or ss -tuln) and external port scanners to verify no rogue services are listening publicly.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+Enabling Nginx on boot (using `systemctl enable nginx`) ensures that the web server or reverse proxy starts automatically whenever the underlying server reboots or recovers from an outage.
+
+* **Service Availability & Low Downtime:** If a virtual machine reboots due to cloud host migration, kernel updates, or a sudden power cycle, Nginx launches automatically without requiring manual SSH intervention from a system administrator.
+* **Support for Unattended Recovery:** Auto-scaling groups and self-healing cloud instances rely on services starting upon boot so they can immediately begin serving application traffic and responding to health checks.
+* **Preventing Cascading Failures:** If Nginx acts as a reverse proxy, load balancer, or SSL/TLS termination point, keeping it disabled on boot causes downstream application services to remain completely unreachable, leading to 502/504 gateway errors.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Exposing secrets (such as API keys, SSH private keys, database passwords, or AWS access tokens) in public GitHub repositories or public forums creates severe security, financial, and operational risks:
+
+Automated Exploitation & Bots: Malicious actors deploy continuous scanning bots on public platforms (e.g., GitHub, Pastebin) that detect exposed credentials within seconds of publication.
+
+Unauthorized Access & Data Breaches: Leaked credentials give attackers direct access to your internal databases, customer PII, or internal networks, leading to severe compliance violations (e.g., GDPR, HIPAA).
+
+Financial Loss & Resource Hijacking: Attackers frequently use exposed cloud keys (AWS/GCP/Azure) to spin up massive cryptocurrency mining clusters or high-compute GPU instances, resulting in huge unexpected cloud bills.
+
+Reputational & Legal Damage: Data loss or compromised infrastructure undermines customer trust and exposes individuals or organizations to legal liability and regulatory fines.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Managing the lifecycle of cloud resources by stopping unneeded virtual machines or terminating temporary environments is essential for several reasons:
+
+Cost Control & Bill Shock Prevention: Cloud providers charge on a pay-as-you-go model (often billed per second or hour). Leaving idle VMs, unattached Elastic IPs, or test databases running continuously incurs unnecessary costs.
+
+Attack Surface Reduction: Every active, internet-facing instance is a potential target for vulnerability exploits, brute-force attacks, or port scanning. Terminating unused resources removes potential entry points for attackers.
+
+Resource Quota & Limit Hygiene: Cloud providers enforce quotas on total vCPUs, IP addresses, and storage volumes per region. Deleting unused resources frees up quota capacity for active development and production workloads.
+
+Clutter & Configuration Drift: Abandoned instances obscure infrastructure visibility, making environment management and security auditing harder for engineering teams.
 
 ---
 
