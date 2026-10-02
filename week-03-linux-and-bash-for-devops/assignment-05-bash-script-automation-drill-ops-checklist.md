@@ -38,21 +38,24 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash (Bourne Again SHell) is a command-line interpreter and scripting language used primarily in Unix-like operating systems such as Linux and macOS. It provides a text-based interface where users can type commands to interact directly with the operating system kernel, navigate the filesystem, execute programs, and automate repetitive administrative tasks through shell scripts.
 
----
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+Shell: A general, umbrella term for any user interface—command-line or graphical—that accepts user input and communicates with the operating system's kernel. Command-line shells define the standard specifications and interfaces for command execution (e.g., the standard POSIX shell /bin/sh).
 
----
+Bash: A specific, popular implementation of a command-line shell. It is an expanded version of the original Bourne shell (sh) that incorporates extra features like command-line editing, command history, tab completion, arrays, and enhanced scripting capabilities.
+
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Confirming the Bash version ensures script compatibility, reliability, and security across environments:
+Feature Availability: Newer versions of Bash introduce features and syntax improvements (such as associative arrays introduced in Bash 4.0 or custom string manipulation methods) that fail on legacy versions (like macOS's default Bash 3.2).
 
----
+Cross-Environment Consistency: Knowing the exact version prevents runtime errors when moving scripts between development, staging, and production servers.
+Security & Optimization: Checking the version guarantees that your scripts aren't running on outdated shells containing known security vulnerabilities or deprecated behaviors.
+
 
 # Task 2 — Your First Bash Script
 
