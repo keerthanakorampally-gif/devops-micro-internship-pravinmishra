@@ -327,27 +327,19 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
-
----
+The if-else statement allows a Bash script to execute different blocks of code based on whether a given condition evaluates to true or false. It acts as a decision-making mechanism, letting scripts branch out and handle varying inputs or system conditions dynamically.
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
-
----
+In Bash arithmetic comparisons, -ge stands for "Greater than or Equal to". When used inside a condition like [ "$SCORE" -ge 70 ], it returns true if the left number is greater than or equal to the right number.
 
 **3. Why should conditions be tested with different values?**
+Testing conditions with different values verifies that every logical pathway in the script works as intended. Checking both passing and failing inputs (as well as boundary edge cases) ensures there are no logic bugs, syntax errors, or unexpected failures when the script runs in production.
 
-Add your answer here.
-
----
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
-
----
+Conditionals allow automation scripts to adapt to dynamic environments without manual intervention. They enable scripts to perform error checks (e.g., verifying if a service is running or a file exists before taking action), prevent redundant operations, and execute failover or recovery procedures automatically if something goes wrong.
 
 # Task 8 — Functions: Final Bash Automation Script
 
