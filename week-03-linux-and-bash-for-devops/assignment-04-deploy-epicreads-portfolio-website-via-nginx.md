@@ -110,7 +110,8 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd88a9c7-ba05-4d87-870b-cc293d4bd8e6" />
+
 
 ---
 
