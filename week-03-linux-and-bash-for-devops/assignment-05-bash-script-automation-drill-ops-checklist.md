@@ -255,21 +255,18 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c7c99660-add0-4ca6-a11e-e1c5905c42a1" />
 
----
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (329)" src="https://github.com/user-attachments/assets/3b5d0680-ec39-4c58-836c-fca56baa2eef" />
 
----
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2f60ebe2-e118-4609-8a86-7c32049d5ffd" />
 
----
 
 ### Notes
 
