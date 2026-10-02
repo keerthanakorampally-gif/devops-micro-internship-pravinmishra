@@ -399,19 +399,21 @@ The if-else statement is a control flow structure that allows a script to make d
 
 **2. Why are functions useful in scripts?**
 
-
+n Bash numeric comparisons, -ge stands for "Greater than or Equal to". In a test condition like [ "$age" -ge 18 ], it evaluates to true if the value on the left is numerically equal to or larger than the value on the right.
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
-
----
+Testing conditions with different values (including boundary and edge cases) ensures that the script behaves correctly under all possible scenarios. It verifies that both the if and else (or elif) logical branches execute as expected, catching logic bugs, syntax errors, or unexpected crashes before deploying the script to production.
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+Conditionals enable automation scripts to dynamically adapt to real-world server environments without human intervention. They allow scripts to:
 
----
+Perform Error Handling: Verify if a required service, file, or network interface is active before attempting to run a task.
+
+Prevent Unnecessary Work: Skip setup steps if a directory or user account already exists.
+
+Recover Automatically: Trigger fallback procedures (e.g., restarting a service or alerting an admin) if a health check fails.
 
 # LinkedIn Post (Required)
 
