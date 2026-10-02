@@ -139,19 +139,17 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
+A variable in Bash is a named storage location used to hold data—such as text strings, numbers, filenames, or command outputs—in system memory. Variables allow scripts to store information dynamically, reuse values across multiple commands, and manipulate data during script execution.
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
-
-Add your answer here.
+Bash treats spaces as command arguments and delimiters. If you put spaces around the = sign (for example, NAME = Keerthana), Bash interprets the word before the space (NAME) as a standalone command to execute, and = Keerthana as positional parameters passed to that non-existent command. This results in a "command not found" syntax error.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
-
-Add your answer here.
+To access or reference the value stored inside a variable, prefix the variable's name with a dollar sign ($). For example, if you assign NAME="Keerthana", you retrieve and print its value using echo $NAME or echo "${NAME}". The dollar sign tells the shell to perform variable expansion, replacing the variable name with its actual stored content before executing the command.
 
 ---
 
@@ -180,26 +178,26 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What is an array in Bash?**
-
-Add your answer here.
-
----
+An array in Bash is a variable that can hold multiple data values simultaneously under a single variable name. Instead of storing a single string or number, an array acts as an ordered collection of elements, where each value is assigned a specific index number (starting at index 0) or a custom key (in associative arrays) to easily identify and retrieve it.
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
-
----
+Arrays are essential in scripting for several reasons:
+Efficient Data Grouping: They allow you to group related items—such as list of server IP addresses, filenames, user accounts, or package names—into one manageable variable rather than creating separate variables for every single item (server1, server2, server3).
+Simplified Looping: Arrays integrate seamlessly with for loops, enabling scripts to automate repetitive actions on sets of data dynamically (e.g., iterating through a list of files to back them up one by one).
+Cleaner and Maintainable Code: By reducing redundant code and hardcoded values, arrays keep scripts concise, easier to read, and simpler to modify or expand when adding new data items in the future.
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+In Bash, "${tools[@]}" expands to all elements contained within the tools array.
+The @ symbol acts as a wildcard index that selects every item in the array.
+Wrapping it in double quotes ("${tools[@]}") ensures that if an individual array element contains spaces or special characters, Bash preserves each item as a distinct, intact argument rather than splitting them into separate words.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+The for loop automates iteration through the elements of a collection (such as array items or a sequence of numbers). Its purpose in the script is to sequentially pick up each item in the array, store it temporarily in a loop variable, and execute the specified set of commands inside the do ... done block once for every item until all elements have been processed.
 
 ---
 
@@ -229,27 +227,30 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+A loop is a fundamental programming construct that repeatedly executes a specific block of code as long as a specified condition is true or until every item in a sequence (such as a list, array, or range of numbers) has been processed.
 
----
+
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
-
----
+Loops are used in Bash scripting to automate repetitive tasks and process dynamic sets of data efficiently. Instead of writing identical or near-identical commands multiple times, a loop allows you to execute operations—such as batch-renaming files, checking service statuses, or reading lines from a text file—using a single, clean block of code.
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
-
----
+The loop ran 5 times (iterating through the 5 elements defined in the tools array or range {1..5}).
 
 **4. What would you change if you wanted the loop to run 10 times?**
+To make the loop execute 10 times:
 
-Add your answer here.
+If using a sequence range, change {1..5} to {1..10}:
 
----
+Bash
+for i in {1..10}; do
+If using a standard C-style loop, change the upper limit condition to <= 10 or < 11:
+
+Bash
+for ((i=1; i<=10; i++)); do
+If using an array, ensure the array contains 10 items for the for item in "${array[@]}" construct to iterate through.
 
 # Task 6 — Files & Conditionals: File Validation Script
 
@@ -283,27 +284,24 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
-
----
+The -d flag is a conditional file test operator that checks whether a specified path exists and is a directory. In an if [ -d "$path" ] statement, it returns true (0) if the path is a valid directory, and false (1) if it does not exist or points to a regular file/other file type.
 
 **2. What does `-f` check in Bash?**
+The -f flag is a conditional test operator that checks whether a specified path exists and is a regular file (such as a text file, script, or image, as opposed to a directory or device file). In an if [ -f "$file" ] statement, it returns true (0) if the file exists and is a standard file.
 
-Add your answer here.
-
----
 
 **3. Why should file and directory paths be stored in variables?**
+Storing paths in variables provides key benefits for script maintainability:
 
-Add your answer here.
+Single Point of Update: If a file or folder directory changes, you only need to update the path once in the variable definition rather than hunting down every instance throughout the script.
 
----
+Prevents Syntax & Typo Errors: Reusing a variable (e.g., "$LOG_DIR") ensures consistency and avoids subtle bugs caused by typing errors in long directory paths.
+
+Improves Code Readability: Using descriptive variable names (like BACKUP_PATH or CONFIG_FILE) makes the script's purpose clearer and easier to understand.
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
-
----
+The -f flag is a conditional test operator that checks whether a specified path exists and is a regular file (such as a text file, script, or image, as opposed to a directory or device file). In an if [ -f "$file" ] statement, it returns true (0) if the file exists and is a standard file.
 
 # Task 7 — Conditionals: Pass or Retry Script
 
@@ -397,15 +395,11 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
-
----
+The if-else statement is a control flow structure that allows a script to make decisions based on specific conditions. It checks whether a condition (such as a file check or numeric comparison) evaluates to true or false; if true, it executes one block of code, and if false, it executes an alternative block (or continues down the script).
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
 
----
 
 **3. Which functions did you create in this script?**
 
@@ -449,18 +443,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✅] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [✅] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [✅] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [✅] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [✅] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [✅] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+- [✅] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [✅] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [✅] All scripts run without errors
+- [✅] Full Name visible in all required screenshots
+- [✅] LinkedIn post published and URL submitted
+- [✅] No sensitive data exposed
 
 ---
 
