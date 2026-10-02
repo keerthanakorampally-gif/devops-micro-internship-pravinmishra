@@ -88,22 +88,27 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
+The #!/bin/bash line—known as a shebang—is placed at the very top of a script file to instruct the operating system on which interpreter to use when executing the file. By pointing directly to /bin/bash, it ensures that the system processes the script using the Bash shell rather than a default or alternative shell (like sh or zsh), preserving intended syntax and feature compatibility.
 
-Add your answer here.
 
----
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+In Linux and Unix-like operating systems, newly created text files do not have execution permissions enabled by default for security reasons. Running chmod +x filename.sh modifies the file's permission flags by adding the eXecute permission. This tells the system that the file contains an executable program, allowing users or automated tasks to trigger it directly as a command.
 
----
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
+./script.sh (Direct Execution):
+Requires the file to have executable permissions (chmod +x).
+Reads the shebang (#!/bin/bash) at the top of the file to determine which interpreter to invoke.
+Executes the script in a brand-new subshell environment defined by that shebang.
+bash script.sh (Explicit Interpreter Call):
+Does not require the file to have executable permissions (only read permission is needed).
+Forces the script to run specifically through the bash interpreter, completely ignoring any shebang line present in the file.
+Explicitly passes the file as an argument to the bash binary.
 
-Add your answer here.
 
----
+
 
 # Task 3 — Variables: User Information Script
 
