@@ -423,15 +423,12 @@ Recover Automatically: Trigger fallback procedures (e.g., restarting a service o
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+[https://www.linkedin.com/posts/keerthana-korampally_devops-aws-nginx-activity-7247291839102812160-xX9](https://www.linkedin.com/posts/keerthana-korampally_devops-aws-nginx-activity-7247291839102812160-xX9)_
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/17144db5-e5e5-494b-a389-60162473587b" />
 
----
 
 # Submission Instructions
 
