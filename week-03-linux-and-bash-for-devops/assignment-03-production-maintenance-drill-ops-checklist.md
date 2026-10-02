@@ -314,7 +314,8 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b43d5b5b-2c03-45b3-b051-8b557098b902" />
+
 
 ---
 
