@@ -161,15 +161,12 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/863ede2e-f226-43d3-8537-800c00153c3b" />
 
----
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
-
----
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d19d11a9-ce9c-4fbe-9abc-653a8c584761" />
 
 ### Notes
 
