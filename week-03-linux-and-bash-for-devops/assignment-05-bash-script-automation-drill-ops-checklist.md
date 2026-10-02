@@ -206,15 +206,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (326)" src="https://github.com/user-attachments/assets/d7f347b5-ee3a-4d09-9cec-24a29ba5bf49" />
 
----
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0b9eebe4-f9d5-4911-80df-77c983b7c241" />
 
----
 
 ### Notes
 
