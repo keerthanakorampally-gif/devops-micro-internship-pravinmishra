@@ -130,13 +130,14 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/keerthana-korampally-48705031b_devops-nginx-linux-activity-7379633519961784320-S-J0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFyM1sBCa1vFp6rQ
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b83eeaa-031d-481e-909d-7d7f9c3eb074" />
+
 
 ---
 
@@ -151,18 +152,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Screenshot 0: Nginx service status (active/running)
-- [ ] Screenshot 1: Website files downloaded and extracted
-- [ ] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
-- [ ] Screenshot 3: Nginx configuration test successful
-- [ ] Screenshot 4: Website files deployed to /var/www/html
-- [ ] Screenshot 5: Public IP retrieved
-- [ ] Screenshot 6: Live website accessible in browser with footer details
-- [ ] Screenshot 7: Nginx enabled on boot
-- [ ] Screenshot 8: Local HTTP response returns 200 OK
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [✅] Screenshot 0: Nginx service status (active/running)
+- [✅] Screenshot 1: Website files downloaded and extracted
+- [✅] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
+- [✅] Screenshot 3: Nginx configuration test successful
+- [✅] Screenshot 4: Website files deployed to /var/www/html
+- [✅] Screenshot 5: Public IP retrieved
+- [✅] Screenshot 6: Live website accessible in browser with footer details
+- [✅] Screenshot 7: Nginx enabled on boot
+- [✅] Screenshot 8: Local HTTP response returns 200 OK
+- [✅] LinkedIn post published and URL submitted
+- [✅] Full Name visible in all required screenshots
+- [✅] No sensitive data exposed
 
 ---
 
