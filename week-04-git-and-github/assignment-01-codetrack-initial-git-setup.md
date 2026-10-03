@@ -20,23 +20,26 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (367)" src="https://github.com/user-attachments/assets/b2ba2cbe-8049-4be3-8ece-f7b666dec93e" />
 
----
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c4fd635-d2b5-479f-8df8-4e08266ee0b5" />
 
----
 
 ### Notes
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The .git folder is the hidden database and core engine of your Git repository. When you run git init, Git creates this directory to store all the tracking data, history, and configuration for your project.
 
----
+Why It Matters
+Complete Version History: It tracks every commit, stash, and branch, recording the exact history of every file change made over time.
+
+Metadata & Configuration: It stores repository settings (such as remote URLs and user info) in its config file, as well as staging area information in the index file.
+
+Separation from Working Code: Your actual source code files stay clean in your project folder (the working directory), while all version control mechanics happen behind the scenes inside .git.
 
 # Task 2 — Configure Git Identity Locally (Repository-Only)
 
