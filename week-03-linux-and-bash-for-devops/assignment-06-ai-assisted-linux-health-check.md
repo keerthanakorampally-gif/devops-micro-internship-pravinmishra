@@ -63,21 +63,15 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
-
----
+Project-specific operational rules provide essential context and boundaries for the AI assistant. They align Claude’s suggestions with your environment's specific setup, coding standards, directory structures, and safety requirements—preventing generic, invalid, or destructive commands.
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
-
----
+Requiring a human operator to execute recovery commands enforces a "human-in-the-loop" safety standard. This prevents automated systems or AI tools from applying changes blindly, ensuring every action is reviewed, verified, and audited before making live changes to system configurations or services.
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
-
----
+The Incident Workflow rule (specifically step 1 and step 2 requiring service status, port binding checks, and system log reviews before taking action) combined with the Output Rules (requiring reproducible terminal commands and expected outputs for verification) prevents unsupported diagnoses. They force recommendations to be grounded directly in verified diagnostic evidence rather than assumptions.
 
 # Task 3 — Use Agentic AI to Plan Before Writing the Script
 
@@ -99,21 +93,15 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
-
----
+The Gather phase is represented by running diagnostic commands to collect baseline information about the environment—specifically checking service status with systemctl is-active nginx, verifying port bindings via ss -ltn | grep ':80', inspecting HTTP headers using curl -I http://localhost, and checking the workspace structure with pwd and find.
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
-
----
+Yes, Claude followed the instruction. This was verified by checking the terminal output before and after the interaction (such as running ls -lah or directory tree checks) to confirm that no unauthorized files or untracked modifications were written to the file system during the diagnostic phase.
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
-
----
+Planning before coding prevents misconfigurations, reduces downtime, and ensures that scripts account for edge cases and existing dependencies. It establishes a safe, repeatable framework where logic can be reviewed against safety rules before executing automated changes on live infrastructure.
 
 # Task 4 — Build the Linux Triage Bash Script
 
@@ -153,33 +141,23 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
-
----
+The checks array stores a list of specific system items, service names, port numbers, or check tasks (such as nginx, 80, or health status indicators) that the script needs to iterate through and validate sequentially.
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
-
----
+The for loop iterates over each element in the checks array one by one. During each iteration, it assigns the current item to a loop variable and executes the function or check command associated with that specific item.
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
-
----
+Separating health checks into functions modularizes the script, making the code cleaner, easier to read, and reusable. It keeps individual check logic isolated, so if a health check needs to be modified or updated, it can be changed in one place without altering the main loop or overall script structure.
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
-
----
+The $() syntax represents command substitution in Bash. It executes the command enclosed within the parentheses inside a subshell and returns its standard output, allowing the script to capture command results directly into variables or evaluate them inline (e.g., USER=$(whoami) or STATUS=$(systemctl is-active nginx)).
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
-
----
+Using distinct exit codes (such as 0 for HEALTHY, 1 for WARN, and 2 for FAIL) allows external automated tools, CI/CD pipelines, and monitoring systems to programmatically detect the exact operational status of the script. This enables downstream systems to react conditionally—such as passing a build on success, sending an alert on warning, or immediately triggering automated failover and rollback procedures on failure.
 
 # Task 5 — Run and Understand the Healthy-State Report
 
@@ -207,27 +185,25 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
-
----
+The overall status of the healthy baseline is HEALTHY (or operational). All core system components are functioning as expected—the Nginx service process is active, the web server is actively listening on port 80, and HTTP requests return a standard 200 OK response.
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
+Two specific command outputs prove the application is actively serving traffic:
 
----
+ss -ltn | grep ':80': Shows an active socket listening on port 80, confirming the server accepts incoming HTTP connections.
+
+curl -I http://localhost: Returns an HTTP/1.1 200 OK response header, proving the application receives HTTP requests and successfully serves back the response payload.
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
-
----
+The script returned exit code 0. In standard Bash conventions, an exit code of 0 indicates successful execution with no critical failures encountered (HEALTHY baseline state). Exit code 1 (or higher) is reserved to signal a warning, error, or health check failure to calling processes or pipelines.
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
+Warning (WARN): Indicates a non-critical anomaly or threshold condition (e.g., elevated disk usage or high memory consumption) where the application is still functioning, but requires attention before it escalates into an outage.
 
----
+Failure (FAIL): Indicates a critical service outage or broken dependency (e.g., Nginx service stopped or port 80 unreachable) where the application cannot serve traffic, requiring immediate intervention or automated failover.
 
 # Task 6 — Create and Run the /linux-triage Skill
 
