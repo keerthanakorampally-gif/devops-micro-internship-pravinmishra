@@ -371,53 +371,48 @@ While a chatbot merely generates conversational text responses based on static p
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+**Full Name:** KORAMPALLY KEERTHANA
 
 **Date:** DD/MM/YYYY
-
----
+03/10/2026
 
 **1. Reported Symptom**
 
-Add your answer here.
-
----
+The web application was unreachable over HTTP, returning connection errors when queried locally and externally.
 
 **2. Evidence Collected**
 
-Add your answer here.
+systemctl is-active nginx output returned inactive.
 
----
+ss -ltn | grep ':80' returned no output, confirming no process was listening on port 80.
+
+curl -I http://localhost failed with a connection refused error (curl: (7)).
 
 **3. Most Likely Cause**
 
-Add your answer here.
-
----
+The Nginx web server service was stopped or uninitialized, preventing port 80 binding and blocking HTTP traffic.
 
 **4. Human-Approved Recovery Action**
 
-Add your answer here.
-
----
+Executed sudo systemctl start nginx in the EC2 terminal following AI diagnostic review and manual operator approval.
 
 **5. Verification**
 
-Add your answer here.
-
----
+Re-ran system diagnostic checks confirming systemctl is-active nginx returned active, port 80 socket was listening, and curl -I http://localhost responded with HTTP/1.1 200 OK.
 
 **6. Safety Decision**
 
-Add your answer here.
-
----
+Adhered to human-in-the-loop safety principles by having the AI analyze telemetry without directly executing write or system-state modifying commands, requiring explicit operator review and execution of the start command.
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
+Observe (Gather): Executed diagnostic commands to collect service status, port bindings, and HTTP headers.
 
----
+Orient / Reason (Analyze): AI model evaluated diagnostic output, identified Nginx stoppage as the root cause, and proposed remediation.
+
+Decide: Human operator reviewed AI analysis, checked safety guardrails, and approved the recovery path.
+
+Act: Human executed sudo systemctl start nginx and performed a follow-up triage run to verify complete service recovery.
 
 # LinkedIn Post (Required)
 
@@ -427,23 +422,18 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/d75NqNCX
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cc606f3-1ea2-41c8-977f-5fd4b7057782" />
 
----
 
 # GitHub Repository URL
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
 
----
 
 # Submission Instructions
 
