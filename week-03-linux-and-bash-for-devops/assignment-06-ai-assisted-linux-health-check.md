@@ -432,8 +432,9 @@ https://lnkd.in/p/d75NqNCX
 # GitHub Repository URL
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
-https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
 
+https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
+https://github.com/keerthanakorampally-gif/Ultimate-Agentic-DevOps-with-Claude-Code
 
 # Submission Instructions
 
