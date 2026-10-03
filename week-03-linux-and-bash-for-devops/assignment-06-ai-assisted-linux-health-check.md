@@ -33,22 +33,16 @@ Confirm that Nginx and the React application are healthy before building the aut
 Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
+The output of the command systemctl is-active nginx returning an active status directly confirms that the Nginx service process is currently running in the background on the system.
 
-Add your answer here.
-
----
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
-
----
+Running ss -ltn | grep ':80' shows an active socket listening on port 80 (the standard HTTP port). Additionally, executing curl -I http://localhost returns an HTTP/1.1 200 OK status header, proving that the web server is actively accepting and responding to incoming HTTP requests.
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
-
----
+Capturing a healthy baseline establishes a known-good standard for how the system, ports, and services behave under normal operations. Having this benchmark allows you to verify that initial conditions are operational and provides a clear point of comparison so you can accurately detect, isolate, and verify failures during an incident simulation—as well as confirm complete recovery afterward.
 
 # Task 2 — Create Project Context and Safety Rules in CLAUDE.md
 
