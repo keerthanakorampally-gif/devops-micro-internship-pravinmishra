@@ -20,15 +20,13 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (371)" src="https://github.com/user-attachments/assets/0ad3408c-1d0f-4b91-9e01-862a7a139596" />
 
----
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (373)" src="https://github.com/user-attachments/assets/02746c20-0b68-4ebd-9002-ddc7f33f5498" />
 
----
 
 # Task 2 — Create index.html and style.css
 
