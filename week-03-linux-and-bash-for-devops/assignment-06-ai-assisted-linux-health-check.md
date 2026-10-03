@@ -230,28 +230,22 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
+Restricting the skill to Bash, Read, and Grep allows it to safely gather system diagnostics, read configuration files, and search logs without risk of modifying the system. Excluding Write acts as an intentional safety guardrail—preventing automated scripts or AI models from accidentally altering system state, overwriting configuration files, or causing unexpected changes during inspection.
 
-Add your answer here.
-
----
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Add your answer here.
-
----
+Setting disable-model-invocation: true prevents the AI model from automatically invoking or running the skill on its own without explicit user approval. This ensures that system inspection tools are only executed when directly requested by a human operator, preserving full control and preventing unintended background command execution.
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-Add your answer here.
+Bash: Executes raw system commands on the host machine to gather factual telemetry (e.g., service status, port bindings, disk usage, and log outputs).
 
----
+Claude: Evaluates, interprets, and analyzes the raw output returned by Bash, formatting the findings into clear diagnostic reports and actionable recommendations.
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Add your answer here.
-
----
+Without real terminal output, an AI model can only guess or provide generic advice based on assumptions, which can lead to hallucinated or incorrect conclusions. Providing concrete command output gives Claude direct ground truth, enabling accurate, evidence-backed diagnostics specific to your environment.
 
 # Task 7 — Simulate an Nginx Incident and Let the Skill Diagnose It
 
@@ -285,33 +279,31 @@ Answer the following in your own words:
 
 **1. Which three checks failed?**
 
-Add your answer here.
+Nginx Service Status Check: Returned inactive (or failed) instead of active.
 
----
+Port 80 Listener Check: Failed to detect a process bound to TCP port 80 (output of ss -ltn | grep ':80' was empty).
+
+HTTP Endpoint Check: curl -I http://localhost failed to connect or failed to return a 200 OK status header.
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
+systemctl is-active nginx returns inactive or failed.
 
----
+ss -ltn | grep ':80' produces no output, proving no web server is listening for traffic on port 80.
+
+curl -I http://localhost returns a connection refused error (curl: (7) Failed to connect to localhost port 80), confirming the HTTP endpoint is completely unreachable.
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
-
----
+No, Claude did not execute the recovery command. This is critical because it maintains a human-in-the-loop architecture. It prevents AI models from making unsupervised changes to live infrastructure, ensuring all remediation commands (sudo systemctl start nginx) are vetted and intentionally triggered by the engineer.
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
-
----
+The Bash report represents the Observe / Gather (Telemetry) phase. It collects raw, verifiable ground truth directly from the host system.
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
-
----
+Claude's explanation represents the Orient / Analyze (Reasoning) phase. It processes the raw terminal output, diagnoses the root cause, and formulates actionable recommendations for human execution.
 
 # Task 8 — Recover Manually, Verify Again, and Write the Incident Summary
 
