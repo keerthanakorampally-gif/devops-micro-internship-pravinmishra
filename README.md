@@ -132,9 +132,9 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed |✅ Solved | https://lnkd.in/p/dn3jhCAc | https://medium.com/@keerthanakorampally/my-devops-learning-journey-week-00-internet-networking-6fe8296c7206?sharedUserId=keerthanakorampally |
 | 01 | Success Mindset |✅ Completed | ✅ Solved |https://lnkd.in/p/dpHBCMHM | https://medium.com/@keerthanakorampally/week-1-success-mindset-building-my-mindset-os-e07053520f82 |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://lnkd.in/p/gVs3k6X3 | | Sure — in the same format as your Week-01 link, your **Week-02 Medium link** is:| https://medium.com/@keerthanakorampally/reflection-week-2-2ab9f1a4d564
+| 02 | Agentic AI with Claude Code **Week-02 Medium link** | ✅ Completed |✅ Solved|https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-claudecode-activity-7510288142524919808-_dkB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk|https://medium.com/@keerthanakorampally/reflection-week-2-2ab9f1a4d564|
 | 03 | Linux & Bash for DevOps | ✅ Completed |✅ Solved| https://lnkd.in/p/ddKJVPvP | https://medium.com/@keerthanakorampally/week-03-632cbeaf0c24?sharedUserId=keerthanakorampally |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | - | - |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
