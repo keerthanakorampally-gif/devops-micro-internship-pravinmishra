@@ -82,15 +82,13 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (383)" src="https://github.com/user-attachments/assets/7c261c98-aa9c-4dbe-8778-4385feac1582" />
 
----
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37e4781d-a023-4cdb-bd86-c13ec4c834ec" />
 
----
 
 # Task 6 — Modify index.html and Create a Second Commit
 
