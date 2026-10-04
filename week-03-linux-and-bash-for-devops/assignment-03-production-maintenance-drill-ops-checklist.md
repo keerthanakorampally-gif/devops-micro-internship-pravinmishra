@@ -181,9 +181,15 @@ Restore the backup configuration, test the syntax with `sudo nginx -t`, and relo
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+Without the context of the previous step or test run, a result with no errors generally indicates the following about a system:
 
----
+Functional Health: The components, services, or inputs evaluated during the test are operating within expected parameters and executing successfully.
+
+Syntactical & Logic Correctness: The executed code, query, or command contains no syntax violations, unhandled exceptions, or crashing edge cases under the tested conditions.
+
+Operational Stability: The system is stable enough to complete the required workload or lifecycle without throwing warnings or failure signals.
+
+Note: Depending on test coverage, "no errors" confirms the tested path works, but it does not guarantee that non-tested edge cases or hidden logic bugs are completely absent.
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
@@ -392,7 +398,6 @@ Connection Pool Depletion: Under peak traffic, background threads continually op
 
 Resource Spikes: Requests began queuing up while waiting for available connections, causing memory usage to spike until the process hit its memory cap and was terminated by the system host/container orchestrator.
 
----
 
 **2. How did you fix the issue and restore the application?**
 
@@ -410,7 +415,6 @@ Added Query Timeout Constraints: Set explicit socket and query timeouts on the c
 
 Deployed Patch: Verified the fix through automated integration tests and deployed the patch to production.
 
----
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
@@ -431,8 +435,6 @@ Run automated performance/soak testing (using tools like k6 or Locust) on non-pr
 Circuit Breakers & Graceful Degradation:
 
 Implement pattern resilience mechanisms like Circuit Breakers (e.g., Resilience4j) and Rate Limiting. If the database drops or becomes overwhelmed, fail fast with structured degradation or cached fallback data rather than locking system worker threads indefinitely.
-
----
 
 # Task 8 — Security & Reliability Review
 
