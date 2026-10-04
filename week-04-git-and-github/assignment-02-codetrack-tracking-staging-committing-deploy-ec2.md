@@ -51,9 +51,8 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6bcbe305-4a42-44c5-9fe2-5d21d0d729e5" />
 
----
 
 # Task 4 — Track and Stage Files Correctly
 
