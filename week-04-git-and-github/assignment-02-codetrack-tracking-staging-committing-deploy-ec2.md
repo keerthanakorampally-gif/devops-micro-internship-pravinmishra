@@ -64,15 +64,13 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7158caf9-eac2-4820-beca-9fc301f18e4c" />
 
----
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c4b10bc-5c21-4e24-80ea-413f99654a39" />
 
----
 
 # Task 5 — Create the First Commit (Clean Initial Commit)
 
