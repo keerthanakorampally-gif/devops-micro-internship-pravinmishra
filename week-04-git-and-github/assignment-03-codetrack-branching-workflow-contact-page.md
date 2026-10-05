@@ -69,21 +69,18 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73fa26c4-2f00-48aa-954c-041641f3fdf3" />
 
----
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4312c83b-d4ff-4a6f-97d3-dff91fb00d51" />
 
----
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b3ebe680-f733-4ac0-a653-611d57e57695" />
 
----
 
 # Task 5 — Verify Isolation (Prove the Default Branch Is Unchanged)
 
