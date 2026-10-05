@@ -133,9 +133,8 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a656dc0b-d7af-4bf6-a339-eedff808286e" />
 
----
 
 # Task 8 — Optional Cleanup (Delete the Feature Branch)
 
@@ -147,9 +146,8 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4db000ad-f499-4dc3-923a-b27679e94d99" />
 
----
 
 # Submission Instructions
 
@@ -162,15 +160,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Repository confirmed clean on the default branch (Screenshot 1)
-- [ ] `feature/contact-page` created and checked out (Screenshot 2)
-- [ ] `contact.html` added in its own commit (Screenshots 3–5)
-- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
-- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
-- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
-- [ ] Graph history reviewed (Screenshot 14)
-- [ ] Optional cleanup completed (Screenshot 15)
-- [ ] No sensitive data exposed
+- [✅] Repository confirmed clean on the default branch (Screenshot 1)
+- [✅] `feature/contact-page` created and checked out (Screenshot 2)
+- [✅] `contact.html` added in its own commit (Screenshots 3–5)
+- [✅] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [✅] Default branch proven unchanged before merge (Screenshots 9–10)
+- [✅] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [✅] Graph history reviewed (Screenshot 14)
+- [✅] Optional cleanup completed (Screenshot 15)
+- [✅] No sensitive data exposed
 
 ---
 
