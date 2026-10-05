@@ -62,9 +62,8 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3ebd53f-7fdd-4084-8e41-566e9356b32e" />
 
----
 
 # Submission Instructions
 
