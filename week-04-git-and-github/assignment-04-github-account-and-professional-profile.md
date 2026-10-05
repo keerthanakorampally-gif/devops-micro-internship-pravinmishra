@@ -25,9 +25,8 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/63087e78-f3e5-490c-beea-318f5c376dba" />
 
----
 
 # Task 2 — Explore GitHub Like a Professional
 
@@ -39,21 +38,18 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69efe847-9a93-4625-a49a-7a10521e2eeb" />
 
----
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (429)" src="https://github.com/user-attachments/assets/e4addbe1-5c5c-4889-b542-9ef4a523ca29" />
 
----
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e41f9a2b-e47f-4a87-bea2-ba0a1c9b32d0" />
 
----
 
 # Task 3 — Update Your GitHub Profile (Professional Setup)
 
