@@ -38,7 +38,8 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69efe847-9a93-4625-a49a-7a10521e2eeb" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69a21fb5-3e42-4216-a15c-e21e5611a0d6" />
+
 
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
