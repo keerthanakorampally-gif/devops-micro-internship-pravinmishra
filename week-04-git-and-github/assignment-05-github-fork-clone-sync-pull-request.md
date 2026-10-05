@@ -46,6 +46,7 @@ Clone your fork locally, then add the original repository as `upstream`.
 
 #### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f7c7bd8-c84e-4789-ad2d-176adb590106" />
 
 
 # Task 3 — Create a Feature Branch and Make Your Change
@@ -58,9 +59,8 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f86d8e8f-6bb2-4e86-9fdc-48f5401fa6f6" />
 
----
 
 #### Screenshot 5 — Output of `git commit`
 
