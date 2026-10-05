@@ -77,9 +77,9 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 Paste your GitHub profile URL here:
 
-`Add your URL here`
+Here is your GitHub profile URL to paste into your documentation:
 
----
+`[https://github.com/keerthanakorampally-gif](https://github.com/keerthanakorampally-gif)`
 
 # Completion Checklist
 
