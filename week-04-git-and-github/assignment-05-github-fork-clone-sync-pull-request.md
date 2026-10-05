@@ -64,9 +64,8 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 5 — Output of `git commit`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b12f7991-d3ad-4a89-8712-0df4c957745d" />
 
----
 
 # Task 4 — Synchronize with Upstream and Push to Your Fork
 
