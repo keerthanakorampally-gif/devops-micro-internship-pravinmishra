@@ -35,9 +35,15 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+Creating a dedicated feature branch isolates your new changes from the stable, tested codebase on main. This approach provides several key benefits:
 
----
+Protects Stability: It ensures the main branch remains clean, deployable, and free of untested or broken code.
+
+Simplifies Testing & Code Reviews: Reviewers can inspect, test, and comment on your changes in isolation without disrupting other ongoing work.
+
+Enables Parallel Workflows: You can easily switch between different feature branches or hotfixes without cluttering your local working directory or mixing up commit histories.
+
+Safe Experimentation & Rollback: If an approach fails or needs to be abandoned, you can safely delete or discard the feature branch without affecting the core project history.
 
 # Task 1 — Stage a Change With Realistic Risk
 
@@ -57,9 +63,11 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+Prevents Credential Leakage: Hardcoding real API keys or secrets into source control creates severe security vulnerabilities, as public repositories are continuously scanned by automated bot networks to steal and abuse exposed credentials.
 
----
+Teaches Environment Security: It forces developers to practice storing sensitive values securely in environment variables (e.g., .env files) or secrets managers rather than committing raw keys into the repository codebase.
+
+Safe Sandbox Testing: Using placeholder tokens allows for validating system logic, pre-commit hook regex rules, and secret-detection guardrails without risking real financial loss, rate limits, or compromised production services.
 
 # Task 2 — Write a Real Git Pre-Commit Hook
 
@@ -85,15 +93,17 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Files inside the .git/ folder are local to your computer and are automatically ignored by Git, meaning they are never pushed to remote repositories like GitHub.
 
----
+Tracking hooks/pre-commit in a dedicated directory in the repository allows team members and developers who clone the project to share, version-control, and execute the exact same quality checks and security guardrails. It prevents "works on my machine" issues and ensures uniform code quality and credential safety across the entire team.
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+What hooks/pre-commit intercepts: It intercepts local Git CLI commands (specifically git commit) on the developer's local system before a commit is created in the repository history.
 
----
+What PreToolUse intercepts: It intercepts agentic AI tool executions right before the AI model calls a specific system tool or executes a command in the environment.
+
+What they have in common: Both act as deterministic guardrails and pre-execution gates. They inspect inputs, evaluate fixed rules or safety checks, and block unauthorized or unsafe operations before state-changing actions take place.
 
 # Task 3 — Prove the Hook Blocks the Risky Commit
 
@@ -113,15 +123,23 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+The hook uses a regular expression (regex) search pattern specifically designed to look for standard AWS access key ID formats:
 
----
+Bash
+grep -E 'AKIA[0-9A-Z]{16}'
+Why it matched: AWS Access Key IDs always begin with the static 4-character prefix AKIA followed by exactly 16 uppercase alphanumeric characters (total length of 20 characters). The regex pattern specifically scans staged files for any string matching AKIA followed by 16 uppercase letters or digits. Because the fake key matched this exact structural pattern, the grep check triggered and blocked the commit.
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+No, it would not have caught it. If a secret or sensitive API key is assigned to a generic variable name (e.g., SECRET_KEY="my_hidden_password_123") without matching the exact AKIA prefix pattern, the rule passes completely undetected.
 
----
+Limits of Fixed Rules:
+
+Rigid Pattern Matching: Fixed rules rely strictly on predefined signatures or regular expressions. They only catch known pattern signatures and are blind to high-entropy strings, custom API tokens, or non-standard naming conventions.
+
+Lack of Contextual Awareness: Static pre-commit checks cannot infer intent or evaluate the semantic meaning of code logic.
+
+Necessity of Defense-in-Depth: Fixed regex checks serve as fast, zero-false-positive safety gates for specific known patterns, but they must be combined with broader tools like generic entropy scanners, dynamic environment variable usage, and AI-assisted contextual review.
 
 # Task 4 — Build the `/pr-ready` Skill
 
@@ -147,15 +165,23 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+The /pr-ready skill is strictly an inspection and readiness audit tool designed to evaluate the repository state before pull request submission.
 
----
+Read: Allows the skill to inspect repository files, read diffs, and review changes.
+
+Bash: Allows the skill to execute read-only diagnostic git commands (such as git status, git diff, or git log) to verify staging status and branch states.
+
+Why no Write: Granting Write permissions to a review tool creates unnecessary operational risk. A verification gate should audit and report findings without modifying source code, altering staged files, or creating unintended side effects in the codebase.
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+No, they evaluated the staged diff through fundamentally different lenses:
 
----
+What the pre-commit hook caught: The pre-commit hook acted as a rigid, deterministic regex filter. It specifically caught hardcoded credential patterns (such as strings matching the AKIA[0-9A-Z]{16} format) and blocked execution immediately. However, it was completely blind to contextual issues like incomplete documentation, poor commit hygiene, or uninformative PR descriptions.
+
+What /pr-ready caught: The /pr-ready skill performed a high-level contextual analysis. It evaluated whether the staged updates met assignment requirements, checked if commit messages were descriptive and compliant with conventional standards, and verified if necessary pull request documentation was complete. It could not, however, deterministically block low-level system commits in the CLI like a native git hook does.
+
+Combining both demonstrates a hybrid guardrail approach: the pre-commit hook delivers non-negotiable safety against exposed secrets, while /pr-ready ensures quality control and contextual completeness before final submission.
 
 # Task 5 — Fix the Issues and Re-Verify
 
@@ -181,9 +207,9 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+To satisfy the pre-commit hook, I removed the hardcoded secret/fake access key (AKIA...) from the file and replaced it with a safe placeholder or moved the credential to an environment variable configuration (e.g., .env).
 
----
+Once the sensitive AKIA string pattern was completely removed from the file, I staged the modified file using git add and ran git commit again, allowing the pre-commit regex scanner to pass without triggering any safety violations.
 
 # Task 6 — Push and Open a Pull Request Using the AI Draft
 
