@@ -117,15 +117,12 @@ https://github.com/pravinmishraaws/devops-micro-internship-pravinmishra/pull/271
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/gudwMPjA
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (459)" src="https://github.com/user-attachments/assets/81bb2b29-99f2-4981-bd59-4f5b491271f8" />
 
----
 
 # Submission Instructions
 
@@ -140,21 +137,19 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`Add your URL here`
-
----
+[https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra](https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra)
 
 # Completion Checklist
 
-- [ ] Upstream repository forked to your GitHub account (Screenshot 1)
-- [ ] GitHub authentication configured securely (Screenshot 2)
-- [ ] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
-- [ ] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
-- [ ] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
-- [ ] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
-- [ ] Fork URL and Pull Request URL included
-- [ ] LinkedIn post published and URL submitted
-- [ ] No PAT, password, private key, or authentication secret exposed
+- [✅] Upstream repository forked to your GitHub account (Screenshot 1)
+- [✅] GitHub authentication configured securely (Screenshot 2)
+- [✅] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
+- [✅] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
+- [✅] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
+- [✅] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
+- [✅] Fork URL and Pull Request URL included
+- [✅] LinkedIn post published and URL submitted
+- [✅] No PAT, password, private key, or authentication secret exposed
 
 ---
 
