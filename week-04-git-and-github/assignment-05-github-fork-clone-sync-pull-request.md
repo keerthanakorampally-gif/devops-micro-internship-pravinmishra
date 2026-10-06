@@ -101,17 +101,14 @@ Add your screenshot here.
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ce3d0cf-cdee-45c9-a829-c7f7ed1b84ee" />
 
----
 
 #### Pull Request URL
 
 Paste your Pull Request URL here:
 
-`Add your URL here`
-
----
+https://github.com/pravinmishraaws/devops-micro-internship-pravinmishra/pull/271
 
 # LinkedIn Post (Required)
 
