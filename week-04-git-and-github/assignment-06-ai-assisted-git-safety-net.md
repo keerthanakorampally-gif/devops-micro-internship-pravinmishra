@@ -211,21 +211,19 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
-
----
+I reviewed the drafted description to ensure it accurately reflected my specific updates, such as adding my correct username and formatting details in README.md. I refined any generic placeholder text to make sure the commit summary directly matched the exact changes made in the repository, keeping the PR clear and concise for reviewers.
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+Inaccurate or Misleading Details: The draft might contain generic placeholder text, incorrect issue numbers, or reference files that weren't actually modified.
 
----
+Lack of Accountability: Unverified PR descriptions can confuse reviewers about what changes were made, leading to unnecessary back-and-forth or PR rejections.
+
+Security & Formatting Errors: The draft could include unintended instructions, incorrect branch references, or exposed system paths.
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
-
----
+Targeting your own fork (or opening a PR from your feature branch to your fork's main branch) allows you to safely test and document local changes without risking unreviewed modifications to the central, shared upstream codebase. It ensures that changes are reviewed, validated, and approved in an isolated environment before any upstream merge occurs.
 
 # Task 7 — Map the Workflow to the Agentic Loop
 
@@ -237,33 +235,25 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
-
----
+Running local diagnostic commands and inspecting file states—such as executing git status, inspecting index.html or README.md, and reviewing system parameters—represent the Gather phase.
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
-
----
+Evaluating local git diff outputs, running baseline linting/pre-commit checks, and checking whether file modifications meet formatting and assignment criteria represent the Analyze phase.
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Executing git commit, running git push origin <branch>, and submitting the Pull Request on GitHub represent the Human Act phase.
 
----
+A human must perform these actions to maintain explicit authorization, accountability, and security over the codebase. While AI can analyze files and draft changes, pushing code and opening PRs directly impacts public repositories and downstream deployments; therefore, final state-changing actions require direct human approval.
 
 **4. Which step is Verify?**
 
-Add your answer here.
-
----
+Checking git log --oneline to confirm the commit history, running git status to verify a clean working directory, inspecting the updated webpage in the browser, and viewing the live Pull Request on GitHub represent the Verify phase.
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
-
----
+Fixed-rule pre-commit hooks provide fast, non-negotiable guardrails for syntax and formatting, while AI skills provide contextual reasoning to interpret complex errors and suggest fixes. Neither is sufficient alone: static hooks lack reasoning capabilities, and AI models lack deterministic execution guarantees.
 
 # Task 8 — LinkedIn Post
 
@@ -275,19 +265,16 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
-
----
+https://lnkd.in/p/gB2sqRys
 
 ## Key Learnings
 
 Add 3-5 bullet points on what you learned this week.
 
--
--
--
-
----
+Updated local web assets (`index.html`) with customized content and student group details.
+Used `git status` to track staged vs. unstaged modifications before committing changes.
+Committed UI updates using conventional, clear commit messages.
+Verified repository commit history using `git log --oneline` to confirm multi-commit sequencing.
 
 # Submission Instructions
 
@@ -305,25 +292,23 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
-
----
+https://github.com/keerthanakorampally-gif/devops-micro-internship-pravinmishra
 
 # Completion Checklist
 
-- [ ] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
-- [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
-- [ ] `core.hooksPath` configured to point at `hooks/`
-- [ ] Pre-commit hook shown blocking the risky commit
-- [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues
-- [ ] Risky file fixed; `git commit` succeeds cleanly
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
-- [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
-- [ ] Agentic Loop mapping (Task 7) completed in your own words
-- [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [✅] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
+- [✅] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
+- [✅] `core.hooksPath` configured to point at `hooks/`
+- [✅] Pre-commit hook shown blocking the risky commit
+- [✅] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
+- [✅] `/pr-ready` run against the risky diff and shown flagging issues
+- [✅] Risky file fixed; `git commit` succeeds cleanly
+- [✅] `/pr-ready` re-run showing a clean report and drafted PR title/description
+- [✅] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
+- [✅] Agentic Loop mapping (Task 7) completed in your own words
+- [✅] LinkedIn post published and URL submitted
+- [✅] All required screenshots added
+- [✅ ] GitHub repository URL provided
 
 ---
 
