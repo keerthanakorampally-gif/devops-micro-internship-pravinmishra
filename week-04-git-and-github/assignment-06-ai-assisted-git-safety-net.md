@@ -146,9 +146,8 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<img width="1148" height="421" alt="Screenshot (470)" src="https://github.com/user-attachments/assets/08d5c266-a271-46cf-aeed-aadefef3d94a" />
 
----
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
