@@ -188,9 +188,8 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+<img width="1756" height="351" alt="edited_notify_script" src="https://github.com/user-attachments/assets/6a4d343f-93d5-4572-a294-523646e8d810" />
 
----
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
