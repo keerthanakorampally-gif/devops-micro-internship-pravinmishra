@@ -193,9 +193,12 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+<img width="670" height="536" alt="Screenshot (474)" src="https://github.com/user-attachments/assets/1007e11f-c30d-4d35-a718-51dbd3af037c" />
+<img width="699" height="592" alt="Screenshot (475)" src="https://github.com/user-attachments/assets/072ae8ed-37a3-483e-9d79-eb3fc5199178" />
+<img width="705" height="330" alt="Screenshot (476)" src="https://github.com/user-attachments/assets/29e020ef-d626-4e73-8b5d-f3a0960c3066" />
 
----
+
+
 
 ### Notes
 
@@ -217,15 +220,11 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
-
----
+<img width="1347" height="677" alt="Screenshot 2026-10-04 215051" src="https://github.com/user-attachments/assets/f2c2e384-0503-4cf9-a511-ad70cd429e92" />
 
 #### PR Link
 
-Add your PR URL here...
-
----
+https://github.com/korampally keerthana-cmyk/devops-micro-internship-interviews/pull/1
 
 ### Notes
 
