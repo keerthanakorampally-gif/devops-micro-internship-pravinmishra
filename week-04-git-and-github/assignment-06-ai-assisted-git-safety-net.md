@@ -82,9 +82,8 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="edited_terminal" src="https://github.com/user-attachments/assets/dfc82f61-dcde-4a44-bc7a-efd78c02653f" />
 
----
 
 ### Notes
 
