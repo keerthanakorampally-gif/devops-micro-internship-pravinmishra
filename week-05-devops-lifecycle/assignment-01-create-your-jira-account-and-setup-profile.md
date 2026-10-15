@@ -20,9 +20,8 @@ Create or access your Jira Cloud account and reach the Jira Software workspace s
 
 #### Screenshot 1 — Jira welcome page, dashboard, or main workspace after successful login, with your name or avatar visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/55645f92-ceea-46c4-8ae0-95f58bdfd14f" />
 
----
 
 # Task 2 — Verify Your Atlassian Account
 
