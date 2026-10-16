@@ -33,9 +33,8 @@ Confirm your email address if Atlassian requests verification.
 
 #### Screenshot 2 (if applicable) — Confirmation screen after email verification, or the inbox showing the Atlassian verification email subject
 
-Add your screenshot here.
+Add your screennshot
 
----
 
 ### Notes
 
@@ -43,9 +42,7 @@ If you signed up with Google and no separate email verification was required, in
 
 > I signed up using Google, and Atlassian did not require separate email verification.
 
-Add any additional notes here.
-
----
+It is such a simple and easy process to access the Jira Account.
 
 # Task 3 — Set Up Your Professional Jira Profile
 
