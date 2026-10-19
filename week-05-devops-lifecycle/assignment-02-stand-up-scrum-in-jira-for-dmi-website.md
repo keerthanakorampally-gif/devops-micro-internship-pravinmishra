@@ -20,9 +20,8 @@ Create a private, team-managed Scrum Space named `DevOps Micro-Internship Websit
 
 #### Screenshot 1 — Space confirmation or Space sidebar showing the Space name and key
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff5dc9c3-6269-4f30-b715-eb95a6b960c4" />
 
----
 
 # Task 2 — Create Your First Epic from the Backlog
 
