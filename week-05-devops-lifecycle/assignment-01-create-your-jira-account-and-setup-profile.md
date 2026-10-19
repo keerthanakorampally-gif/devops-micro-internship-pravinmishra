@@ -67,9 +67,8 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 #### Screenshot 4 — "View all projects" page showing at least one project
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a9f507d-1627-4a15-a283-afd27c22b1fe" />
 
----
 
 #### Screenshot 5 — Opened project showing either the Board or Backlog screen
 
