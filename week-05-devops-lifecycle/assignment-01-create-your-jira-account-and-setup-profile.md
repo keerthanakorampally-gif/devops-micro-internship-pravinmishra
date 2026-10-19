@@ -40,7 +40,7 @@ Add your screennshot
 
 If you signed up with Google and no separate email verification was required, include the following statement instead of Screenshot 2:
 
-> I signed up using Google, and Atlassian did not require separate email verification.
+I signed up using Google, and Atlassian did not require separate email verification.
 
 It is such a simple and easy process to access the Jira Account.
 
