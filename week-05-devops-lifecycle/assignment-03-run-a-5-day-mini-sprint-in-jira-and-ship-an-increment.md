@@ -25,9 +25,8 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23c71ec9-c9ee-4c09-a15d-924f8ff111b5" />
 
----
 
 # Task 2 — Day 1: Implement the Footer, Commit, and Deploy
 
