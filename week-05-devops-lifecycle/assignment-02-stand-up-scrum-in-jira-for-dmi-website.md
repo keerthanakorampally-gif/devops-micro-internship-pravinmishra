@@ -119,9 +119,8 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/982eb6b6-bc5b-44d9-a284-aa205e8bf97e" />
 
----
 
 # Task 8 — Open the Burndown Report
 
