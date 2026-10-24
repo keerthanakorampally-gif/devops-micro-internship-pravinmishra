@@ -43,9 +43,8 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c29212e2-0aa5-495b-b963-753481312f18" />
 
----
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
