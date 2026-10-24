@@ -69,9 +69,8 @@ Break down S2 (Primary button color refresh) and S4 (Footer with version and dat
 
 #### Screenshot 6 — S4 showing all four Sub-tasks
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e171686a-1586-408e-85b0-01eddfc36e8d" />
 
----
 
 # Task 5 — Tag Stories by Workstream
 
