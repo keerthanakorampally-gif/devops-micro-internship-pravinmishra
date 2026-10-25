@@ -170,9 +170,8 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+<img width="1015" height="667" alt="Screenshot (665)" src="https://github.com/user-attachments/assets/0dc05708-823c-4611-adda-b8effd99817b" />
 
----
 
 # Task 9 — Retro Notes (Scrum Pillar + Value)
 
