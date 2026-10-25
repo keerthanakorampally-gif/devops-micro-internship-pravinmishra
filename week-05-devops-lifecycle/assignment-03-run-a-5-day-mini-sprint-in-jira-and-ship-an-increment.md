@@ -83,9 +83,8 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a59a2211-a411-477e-ba66-f45a9ef9bf47" />
 
----
 
 # Task 4 — Day 3: Polish the Footer and Validate Accessibility
 
