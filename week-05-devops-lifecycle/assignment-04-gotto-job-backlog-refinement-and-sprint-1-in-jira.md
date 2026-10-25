@@ -183,9 +183,8 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82b9387b-2084-4390-9e7c-954972c26fd5" />
 
----
 
 # Task 10 — LinkedIn Post (Mandatory)
 
