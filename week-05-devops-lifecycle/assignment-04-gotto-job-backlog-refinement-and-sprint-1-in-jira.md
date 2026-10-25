@@ -1,4 +1,4 @@
-# Assignment 4 — Gotto Job: Backlog Refinement & Sprint 1 in Jira
+<img width="1920" height="1080" alt="Screenshot (652)" src="https://github.com/user-attachments/assets/2ba3c599-9440-4210-bff7-65760dc0725a" /># Assignment 4 — Gotto Job: Backlog Refinement & Sprint 1 in Jira
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -132,9 +132,10 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (652)" src="https://github.com/user-attachments/assets/387d3778-7868-4b1a-b218-c5747b3ea610" />
 
----
+
+
 
 # Task 7 — Reports: Open Burndown Chart
 
