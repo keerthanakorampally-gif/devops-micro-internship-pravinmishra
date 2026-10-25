@@ -147,9 +147,8 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67d4c819-1d48-443d-8838-04003bdfb105" />
 
----
 
 # Task 8 — Ship One Small Increment (Build + Deploy + Proof)
 
