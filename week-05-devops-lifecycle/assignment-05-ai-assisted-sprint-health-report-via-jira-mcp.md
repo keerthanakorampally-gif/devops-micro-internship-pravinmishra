@@ -66,7 +66,8 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section, with the actual token value blurred or covered
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6f8805fa-2a21-4d0d-8339-19ecc832495f" />
+
 
 ### Notes You Must Write (Very Important):
 
