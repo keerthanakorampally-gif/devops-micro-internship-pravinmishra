@@ -121,23 +121,43 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6e3e3b05-630e-4c09-9b0f-cb959c0b3b06" />
+
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b7dd8b8-b734-44b5-a777-f7ce0de2998a" />
+
 
 ### Notes You Must Write (Very Important):
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+Included Read-Only Tools in allowed-tools:
+
+jira_search / search_issues (for querying and retrieving backlog items and sprint data)
+
+jira_get_issue / get_issue (for fetching detailed issue fields, acceptance criteria, and status)
+
+jira_get_project / jira_get_board (for reading project metadata, sprint boards, and column states)
+
+Deliberately Excluded Mutating Tools:
+
+jira_create_issue (creating new tickets)
+
+jira_update_issue (editing existing summary, description, estimates, or assignees)
+
+jira_transition_issue (moving status across columns like To Do, In Progress, or Done)
+
+jira_add_comment (posting comments to issues)
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+Preserving Team Autonomy & Self-Organization: The core responsibility of a Scrum Master is to facilitate processes, unblock bottlenecks, and coach the team—not to unilaterally assign tasks, alter estimates, or manipulate ticket statuses on behalf of developers.
 
----
+Preventing Accidental Workspace Corruption: Granting AI tools mutating capabilities on a live Jira board risks unintended status transitions or ticket updates during automated analysis and reporting runs.
+
+Separation of Read-Only Triage vs. Execution: A Scrum Master agent needs full visibility (read-only access) into sprint velocity, board state, and open impediments to run diagnostics and sprint summaries without acting as an authorized writer/executor of engineering tasks.
 
 # Task 7 — Prove the Skill Never Mutates the Board
 
@@ -149,15 +169,17 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-Add your screenshot here.
+<img width="1918" height="966" alt="Screenshot (684)" src="https://github.com/user-attachments/assets/98a64f01-3bc1-4236-bd38-b4501f4031a4" />
+
 
 ### Notes You Must Write (Very Important):
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
-
----
+🔍 1. Gather (Data Collection)What happens: Reading the state of external systems and collecting live evidence.   Assignment mapping: Claude Code uses read-only Jira tools (e.g., jira_search, jira_get_issue, jira_get_board) to collect real-time issue descriptions, column statuses, sprint details, and backlog items.
+🧠 2. Analyze (AI Diagnostic & Synthesis)What happens: Evaluating the gathered evidence against rules, thresholds, or project context.   Assignment mapping: Claude processes the raw Jira board data, identifies blockers/impediments, calculates sprint metrics, formats status summaries, and highlights items needing attention.
+👤 3. Human Act (Decision & Execution — Manual Step)What happens: The execution step where changes are made to the live system.   Assignment mapping:Manual browser step: Creating API tokens, managing Atlassian account permissions, and manually creating/updating/transitioning Jira tickets in the browser interface.   Why this step MUST stay human:Authorization & Security Boundaries: Generating API keys or granting permissions requires human authentication and implicit consent to prevent AI agents from self-escalating permissions or leaking credentials.Accountability & Scope Control: Destructive or state-changing actions (such as closing tickets, reassigning tasks, or modifying project scope) require human intent and business judgment to prevent accidental board corruption or erroneous ticket transitions by an automated agent.   
+⚙️ 4. Verify (Post-Execution Validation)What happens: Re-querying the system to confirm that actions produced the intended state.   Assignment mapping: Re-running queries or terminal verification commands (/mcp) to confirm that Jira displays connected and that board states accurately reflect the updated information.  
 
 # Submission Instructions
 
@@ -171,16 +193,16 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
-- [ ] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
-- [ ] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
-- [ ] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
-- [ ] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
-- [ ] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
-- [ ] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
-- [ ] Skill never created, edited, transitioned, or commented on any issue
-- [ ] Reflection answered (Notes)
-- [ ] No API token value exposed
+- [✅] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
+- [✅] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
+- [✅] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
+- [✅] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
+- [✅] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
+- [✅] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
+- [✅] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
+- [✅] Skill never created, edited, transitioned, or commented on any issue
+- [✅] Reflection answered (Notes)
+- [✅] No API token value exposed
 
 ---
 
