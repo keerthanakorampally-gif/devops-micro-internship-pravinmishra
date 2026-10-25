@@ -165,9 +165,8 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0075b37-3e9f-4c18-844c-9053f41ae862" />
 
----
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
