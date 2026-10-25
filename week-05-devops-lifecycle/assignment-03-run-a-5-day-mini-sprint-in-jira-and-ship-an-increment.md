@@ -48,9 +48,10 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (569)" src="https://github.com/user-attachments/assets/25008f94-15c1-4c68-8a18-d9cf4b5f3bb1" />
 
----
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/751f4060-1056-4586-81a4-c53623eb9dd9" />
+
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
