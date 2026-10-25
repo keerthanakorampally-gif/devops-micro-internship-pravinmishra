@@ -46,9 +46,8 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f05d5893-2888-41aa-9f74-ee30ec537c63" />
 
----
 
 # Task 3 — Create the Epic
 
