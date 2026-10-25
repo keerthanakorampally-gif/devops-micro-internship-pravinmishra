@@ -96,9 +96,8 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe5f0dd6-ac7f-457a-8944-7c61d230494f" />
 
----
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
