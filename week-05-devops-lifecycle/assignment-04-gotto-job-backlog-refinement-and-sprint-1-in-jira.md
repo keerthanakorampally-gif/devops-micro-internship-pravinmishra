@@ -77,9 +77,10 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (647)" src="https://github.com/user-attachments/assets/6d1e082f-2be5-4b23-a154-85a2fd42fa88" />
 
----
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07e07d68-d8e8-4153-af23-1c0ee5d8a897" />
+
 
 # Task 5 — Planning Poker (Estimate + Debate Notes)
 
