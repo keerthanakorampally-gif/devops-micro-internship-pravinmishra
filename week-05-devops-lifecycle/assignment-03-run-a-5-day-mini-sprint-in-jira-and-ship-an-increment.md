@@ -106,9 +106,8 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a75e8796-3b53-455d-bb1c-3d5c049d99c2" />
 
----
 
 # Task 5 — Day 4: Change the Homepage Tagline / Call-to-Action
 
