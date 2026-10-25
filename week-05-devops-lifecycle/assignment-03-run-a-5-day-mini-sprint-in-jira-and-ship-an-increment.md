@@ -55,9 +55,8 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1f7beef-533c-4a54-81d1-fd895002752c" />
 
----
 
 # Task 3 — Day 2: Make the Deploy Date Dynamic and Document It
 
