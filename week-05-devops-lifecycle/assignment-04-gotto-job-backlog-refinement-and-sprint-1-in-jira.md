@@ -92,17 +92,30 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (649)" src="https://github.com/user-attachments/assets/e3901156-a1af-4f01-a16f-7325ad28933f" />
 
----
 
 ### Notes
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+GJK-2 (Update Hero Section text & CTA buttons) — 1 Story Point
+Reasoning: Straightforward text and button link updates on the landing page header. Solo debate: Considered a 2 due to potential styling tweaks, but kept at 1 because it's purely frontend text and primary CTA redirection without complex logic.
 
----
+GJK-3 (Implement responsive mobile navigation menu) — 2 Story Points
+Reasoning: Requires CSS media queries and hamburger menu toggle behavior to ensure usability on mobile devices. Solo debate: Evaluated as a 1 for simplicity, but bumped to 2 to account for testing across different screen resolutions.
+
+GJK-4 (Update primary brand color scheme across UI components) — 1 Story Point
+Reasoning: Quick CSS variable update for primary color branding. Solo debate: Quick implementation time, but requires checking all buttons and links for consistency across pages.
+
+GJK-5 (Add user trust badges and partner logos) — 1 Story Point
+Reasoning: Simple HTML asset placement and image alignment in the footer/trust section. Solo debate: Low complexity; straight asset integration.
+
+GJK-6 (Optimize landing page images & load speed) — 2 Story Points
+Reasoning: Image compression, format conversion (WebP), and layout shift checks. Solo debate: Small scope, but requires verification of performance scores to ensure compliance.
+
+GJK-7 (Add footer version tag and updated links) — 1 Story Point
+Reasoning: Low-effort text and hyperlink update in the static footer template. Solo debate: Very minor change, unanimously estimated as a 1.
 
 # Task 6 — Sprint Planning: Create Sprint 1 + Sprint Goal + Scope
 
