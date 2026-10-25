@@ -43,15 +43,18 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the Jira server configuration
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6486d2b-a559-4d69-82b4-e3a66f7554b5" />
+
 
 ### Notes You Must Write (Very Important):
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+What stays exactly the same shape:
+The core structural JSON schema (mcpServers, server key names, and environment variable passing) remains identical. Regardless of whether the underlying executable is launched via Node.js (npx) or Python (uvx), the configuration format defined in .mcp.json always wraps the server execution command and its arguments inside the same standard mcpServers object dictionary.
 
----
+Why Claude Code doesn't care which language the MCP server is written in:
+Claude Code communicates with all MCP servers through the standardized Model Context Protocol (MCP), which operates via standard input/output (stdio) or JSON-RPC message passing over standard streams. Because the protocol abstracts away the underlying implementation details, Claude Code treats every server as a uniform tool provider—sending JSON-RPC requests and receiving structured tool definitions and responses, entirely agnostic of whether the server code is written in TypeScript/Node.js, Python, Go, or any other language.
 
 # Task 3 — Add Your Credentials to settings.local.json
 
@@ -69,9 +72,11 @@ Add your screenshot here.
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+Separation of Team Configuration vs. Personal Credentials: .mcp.json is checked into version control (GitHub) to define the shared server setup and structure for the entire team, whereas settings.local.json contains personal environment variables and user-specific credentials.
 
----
+Security & Preventing Secret Leaks: Putting secret tokens like JIRA_API_TOKEN in .mcp.json would commit them directly to your public or team GitHub repository, exposing sensitive credentials to anyone with access to the codebase.
+
+Gitignore Protection: settings.local.json is explicitly gitignored (.gitignore) so that personal tokens remain strictly local on your machine and are never accidentally tracked, pushed, or leaked.
 
 # Task 4 — Verify the Connection with /mcp
 
