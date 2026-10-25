@@ -109,9 +109,7 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
-
----
+Explicit Tool Invocation: During the session execution, Claude Code explicitly logged and output an external tool call to the MCP server endpoint (e.g., using jira_search, get_issues, or project query tools).   Exact Data Match: The retrieved data included precise, real-time details—such as exact issue keys (e.g., SCRUM-23), custom titles, live status states (In Progress, Done), updated timestamps, and recent comment threads—that exist uniquely on your specific Jira board and cannot be found within pre-trained AI datasets.   Dynamic Response Grounding: Unlike static training data, the query returned data that reflects changes made moments prior in your live environment, verifying direct API communication between Claude Code, the MCP server, and Atlassian's live servers.   
 
 # Task 6 — Build the /sprint-health Skill
 
