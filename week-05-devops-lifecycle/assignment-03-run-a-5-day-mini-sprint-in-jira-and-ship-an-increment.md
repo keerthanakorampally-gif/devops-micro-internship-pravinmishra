@@ -101,9 +101,8 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (624)" src="https://github.com/user-attachments/assets/e62ddd78-0f51-4197-860d-6cc16915190c" />
 
----
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
