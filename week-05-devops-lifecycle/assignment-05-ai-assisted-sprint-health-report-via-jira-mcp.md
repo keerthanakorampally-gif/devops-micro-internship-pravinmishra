@@ -27,9 +27,11 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+Account Identification / Username: The account email identifies who is making the request and links the operation to your specific user profile within the organization or cloud workspace.
 
----
+Workspace / Tenant Routing: The site URL (e.g., your unique Atlassian instance domain) tells the client where to direct the API requests. Because cloud services often host thousands of separate customer tenants on the same base domain, the specific URL ensures that queries and commands reach your correct organization workspace rather than a generic or incorrect endpoint.
+
+Authentication and Authorization: While the token provides the secure cryptographic credentials (secret) to prove you are authorized, the email and site URL provide the necessary context to know whose account is acting and which specific cloud instance or environment to target.
 
 # Task 2 — Create .mcp.json at the Project Root
 
