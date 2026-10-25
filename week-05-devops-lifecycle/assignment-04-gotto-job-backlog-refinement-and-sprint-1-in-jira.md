@@ -59,9 +59,8 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7931844a-ac29-4938-a1a3-4d907c70990c" />
 
----
 
 # Task 4 — Seed the Product Backlog (6–8 Stories + Fibonacci Points + Ranking)
 
