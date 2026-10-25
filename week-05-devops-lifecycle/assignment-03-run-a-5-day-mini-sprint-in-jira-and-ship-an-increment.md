@@ -166,15 +166,12 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/dYtuTNwt
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae8223e2-0268-486c-bc0c-14d1a8d8b20d" />
 
----
 
 # Submission Instructions
 
@@ -190,17 +187,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
-- [ ] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
-- [ ] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
-- [ ] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
-- [ ] Task 5: Day 4 DMI Website call-to-action deployed and clickable (Screenshot 14)
-- [ ] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
-- [ ] Daily Scrum comments posted for Days 1–5
-- [ ] LinkedIn post published with the GitHub URL, EC2 URL, required delivery details, and proof image
-- [ ] LinkedIn Post URL and LinkedIn Screenshot 1 included
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [✅] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
+- [✅] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
+- [✅] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
+- [✅] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
+- [✅] Task 5: Day 4 DMI Website call-to-action deployed and clickable (Screenshot 14)
+- [✅] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
+- [✅] Daily Scrum comments posted for Days 1–5
+- [✅] LinkedIn post published with the GitHub URL, EC2 URL, required delivery details, and proof image
+- [✅] LinkedIn Post URL and LinkedIn Screenshot 1 included
+- [✅] Full Name visible in required screenshots
+- [] No sensitive data exposed
 
 ---
 
