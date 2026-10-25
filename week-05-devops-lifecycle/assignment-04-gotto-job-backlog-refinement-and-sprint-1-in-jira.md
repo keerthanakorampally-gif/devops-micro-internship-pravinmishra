@@ -127,9 +127,8 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/35facbd0-e335-45ec-b3ed-8f7993958aef" />
 
----
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
