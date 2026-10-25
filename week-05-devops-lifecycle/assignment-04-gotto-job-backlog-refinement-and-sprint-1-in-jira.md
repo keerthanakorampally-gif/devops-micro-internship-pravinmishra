@@ -72,9 +72,8 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (646)" src="https://github.com/user-attachments/assets/a073b6d8-ad35-4c68-b443-c4317fc78222" />
 
----
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
