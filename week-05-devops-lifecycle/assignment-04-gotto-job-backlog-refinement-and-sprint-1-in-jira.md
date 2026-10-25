@@ -20,17 +20,21 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b075026a-e5f8-4039-aba4-6eddeb373d44" />
 
----
 
 ### Notes
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+PO: Prioritized backlog user stories, website navigation updates, and responsive layouts to maximize user value.
 
----
+SM: Facilitated daily standups, sprint tracking, and retrospectives to maintain Agile momentum and remove blockers.
+
+Dev Lead: Built and polished the DMI website frontend, including navigation headers, hero sections, and custom versioned footers.
+
+DevOps Lead: Shipped updates seamlessly via automated Git workflows and continuous deployment to the AWS EC2 server.
+
 
 # Task 2 — Create the Jira Project (Team-managed → Scrum)
 
