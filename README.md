@@ -76,14 +76,14 @@ This is not a course. It is an internship-style program — real deployments, re
 -- Week 02 → Agentic AI with Claude Code --
 -- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+-- Week 03 → Linux & Bash for DevOps --
+-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) --
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+-- Week 04 → Git & GitHub --
+-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) --
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+-- Week 05 → DevOps Lifecycle & Agile --
+-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) --
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code **Week-02 Medium link** | ✅ Completed |✅ Solved|https://www.linkedin.com/posts/keerthana-korampally-43377a434_dmibypravinmishra-agenticai-claudecode-activity-7510288142524919808-_dkB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk|https://medium.com/@keerthanakorampally/week-02-agentic-ai-8dbab05326d9?sharedUserId=keerthanakorampally |
 | 03 | Linux & Bash for DevOps | ✅ Completed |✅ Solved| https://www.linkedin.com/posts/keerthana-korampally-43377a434_week-03-devops-micro-internship-week-activity-7512154558488358912-z5LE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk | https://medium.com/@keerthanakorampally/week-03-632cbeaf0c24?sharedUserId=keerthanakorampally |
 | 04 | Git & GitHub | ✅ Completed |✅ Solved  | https://www.linkedin.com/posts/keerthana-korampally-43377a434_devops-git-github-activity-7513597915437633537-p0_j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk | https://medium.com/@keerthanakorampally/mastering-git-github-in-devops-from-basic-commits-to-automated-pre-commit-safety-guardrails-13c1ce328dc6 |
-| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved  | — | https://medium.com/@keerthanakorampally/week-05-devops-lifecycle-d0d262ab23ff?sharedUserId=keerthanakorampally |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/keerthana-korampally-43377a434_korampally-keerthana-dmi-self-paced-engineer-activity-7520140559760531457-V1bR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAG2_kOcB8_K8nzZKl2KbnzuXPyPIevxFZEk | https://medium.com/@keerthanakorampally/week-05-devops-lifecycle-d0d262ab23ff?sharedUserId=keerthanakorampally |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
