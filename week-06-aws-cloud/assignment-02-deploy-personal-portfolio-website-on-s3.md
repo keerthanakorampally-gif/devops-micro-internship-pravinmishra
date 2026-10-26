@@ -48,9 +48,8 @@ Upload the contents of the template folder (not the folder itself) so `index.htm
 
 #### Screenshot 3 — S3 bucket Objects view showing `index.html` at the top or root level
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eee61d2f-e6c9-461d-85a6-0df464e7e265" />
 
----
 
 # Task 4 — Enable Static Website Hosting
 
