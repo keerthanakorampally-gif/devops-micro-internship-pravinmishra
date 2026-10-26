@@ -16,9 +16,7 @@ In this assignment, you will create your own AWS Free Tier account and configure
 
 Create your AWS Free Tier account, select the Basic Support Plan (Free), and log in to the AWS Management Console.
 
-> No screenshot required for this task. Completion is verified through Task 2.
-
----
+> yes I created my AWS free tier account
 
 # Task 2 — Create a Monthly Cost Budget with Alerts
 
