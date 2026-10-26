@@ -20,9 +20,10 @@ Download or clone the portfolio website template from GitHub and confirm `index.
 
 #### Screenshot 1 — File Explorer or terminal showing the template folder contents with `index.html` visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (701)" src="https://github.com/user-attachments/assets/74e958e2-eaf0-476b-a5f0-3ec2de729fb2" />
 
----
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/869500eb-116a-4020-a328-083fe0db7621" />
+
 
 # Task 2 — Create an S3 Bucket for Website Hosting
 
