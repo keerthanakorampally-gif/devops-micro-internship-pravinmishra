@@ -16,7 +16,7 @@ In this assignment, you will deploy the Mini Finance static HTML website on an A
 
 Launch an Amazon Linux 2 or Ubuntu EC2 instance in a public subnet, and configure its security group to allow SSH (22) and HTTP (80).
 
-> No screenshot required for this task. Completion is verified through Task 4.
+ Completion is verified through Task 4.
 
 ---
 
@@ -26,7 +26,7 @@ Launch an Amazon Linux 2 or Ubuntu EC2 instance in a public subnet, and configur
 
 Connect to the instance using SSH and install Nginx or Apache.
 
-> No screenshot required for this task. Completion is verified through Task 4.
+Completion is verified through Task 4.
 
 ---
 
@@ -36,7 +36,7 @@ Connect to the instance using SSH and install Nginx or Apache.
 
 Clone the Mini Finance repository (`https://github.com/pravinmishraaws/mini_finance.git`) and copy the site files to the web server's root directory.
 
-> No screenshot required for this task. Completion is verified through Task 4.
+ Completion is verified through Task 4.
 
 ---
 
