@@ -100,9 +100,8 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7cb24e52-4ea4-4474-a158-7d1a3d59bcb2" />
 
----
 
 # Submission Instructions
 
