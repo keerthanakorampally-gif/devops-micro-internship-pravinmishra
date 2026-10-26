@@ -74,9 +74,8 @@ Adjust Block Public Access settings and save a bucket policy that grants public 
 
 #### Screenshot 5 — Bucket policy page showing the policy saved successfully, with the bucket name visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f891439d-7f04-45c8-9936-35384ebe78dc" />
 
----
 
 # Task 6 — Verify Website Works (Public Endpoint Test)
 
