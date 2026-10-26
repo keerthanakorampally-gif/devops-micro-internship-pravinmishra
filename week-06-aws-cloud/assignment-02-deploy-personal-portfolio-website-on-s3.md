@@ -35,9 +35,8 @@ Create a globally unique S3 bucket in your chosen AWS region.
 
 #### Screenshot 2 — S3 bucket created screen showing the bucket name and region
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/934c600e-ff05-4e85-bc47-ec873d14ad5f" />
 
----
 
 # Task 3 — Upload Website Files to the Bucket
 
