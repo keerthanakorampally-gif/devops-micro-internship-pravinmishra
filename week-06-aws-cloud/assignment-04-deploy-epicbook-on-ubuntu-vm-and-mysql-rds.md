@@ -30,9 +30,8 @@ Create `epicbook-vpc` (10.0.0.0/16) with a public subnet (10.0.1.0/24) and a pri
 
 #### Screenshot 3 — Route table showing 0.0.0.0/0 → IGW and association with the public subnet
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a0e8e78-b6ab-4c04-ac57-00bdae027fa3" />
 
----
 
 # Task 2 — Create Security Groups (EC2 + RDS) with Least Privilege
 
