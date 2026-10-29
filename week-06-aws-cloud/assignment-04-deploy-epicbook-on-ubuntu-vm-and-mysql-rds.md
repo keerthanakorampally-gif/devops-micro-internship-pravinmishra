@@ -48,9 +48,8 @@ Create `epicbook-ec2-sg` (SSH from your IP, HTTP/HTTPS public) and `epicbook-rds
 
 #### Screenshot 5 — RDS security-group inbound rule showing MySQL 3306 allowed from the EC2 security group
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf546acc-7b42-4728-885d-d44a8521b096" />
 
----
 
 # Task 3 — Launch Ubuntu EC2 in Public Subnet
 
