@@ -79,9 +79,8 @@ Install Node.js, npm, Nginx, and the MySQL client on the instance, and confirm N
 
 #### Screenshot 8 — Output of `node -v` and `npm -v`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f17b6e02-1e7e-4476-9614-9458225d6165" />
 
----
 
 #### Screenshot 9 — Output of `systemctl status nginx`
 
