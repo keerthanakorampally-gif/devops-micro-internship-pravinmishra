@@ -66,9 +66,8 @@ Launch an Ubuntu 20.04 instance in the public subnet with `epicbook-ec2-sg` atta
 
 #### Screenshot 7 — Terminal showing a successful SSH login with the `ubuntu@...` prompt
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6293669e-b121-45a6-872f-d9743a4de0d7" />
 
----
 
 # Task 4 — Install Required Software on EC2
 
