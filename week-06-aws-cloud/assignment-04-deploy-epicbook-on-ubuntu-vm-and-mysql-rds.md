@@ -84,15 +84,13 @@ Install Node.js, npm, Nginx, and the MySQL client on the instance, and confirm N
 
 #### Screenshot 9 — Output of `systemctl status nginx`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (800)" src="https://github.com/user-attachments/assets/02141aec-ae26-40a0-9d42-51a5a453cca9" />
 
----
 
 #### Screenshot 10 — Output of `mysql --version`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e3d0414a-f706-4085-b0d6-4ffbd52a078b" />
 
----
 
 # Task 5 — Create RDS MySQL in Private Subnet (No Public Access)
 
